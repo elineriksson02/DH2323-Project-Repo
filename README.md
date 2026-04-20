@@ -23,7 +23,10 @@ The goal of this project is to explore water simulation, which is considered one
 - NS-based model: 
 
 ## Screenshots
-(Add images here)
+### Gerstner Waves
+![Water Simulation](Video/Gernst.gif)
+### NS-based model
+![Water Simulation](Video/NavierSimple.gif)
 
 ## How to run 
 1. Clone repository

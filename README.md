@@ -19,8 +19,8 @@ The goal of this project is to explore water simulation, which is considered one
 - C#
 
 ## Results
-- Gerstner Waves: 
-- NS-based model: 
+- Gerstner Waves: ~XXX FPS
+- NS-based model: ~XXX FPS
 
 ## Screenshots
 ### Gerstner Waves
@@ -33,6 +33,3 @@ The goal of this project is to explore water simulation, which is considered one
 2. Open in Unity
 3. Load main scene
 4. Press Play
-
-## Project Goal
-The goal of this project is to compare two different water simulation models commonly used in games and films, and to analyze how they differ in terms of visual realism and computational performance. The project also investigates whether one model performs better than the other depending on the context, such as real-time interactivity or physical accuracy.

@@ -30,8 +30,12 @@ See the full report for more details.
 ## Screenshots
 ### Gerstner Waves
 ![Water Simulation](Video/Gernst.gif)
+### Gerstner Waves with Object
+![Water Simulation](Video/GernstObject.gif)
 ### NS-based model
 ![Water Simulation](Video/NavierSimple.gif)
+### NS-based model with Object
+![Water Simulation](Video/NavierSimpleObject.gif)
 
 ## How to run 
 1. Clone repository

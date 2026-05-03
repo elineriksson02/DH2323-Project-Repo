@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-03T10:40:12Z
+Date:                    2026-05-03T11:00:15Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin" at "2026-05-03T10:40:12.550663Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin" at "2026-05-03T11:00:15.584223Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity
@@ -19,11 +19,11 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/elin/Desktop/Computer Grahics and Interaction/Project 2.0/Water Project
+/Users/elin/Desktop/GIT/DH2323-Project-Repo/Water Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63619
+63800
 -licensingIpc
 LicenseClient-elin
 -force-metal
@@ -34,8 +34,8 @@ LicenseClient-elin
 -gc-helper-count
 1
 -name AssetImport
-Successfully changed project path to: /Users/elin/Desktop/Computer Grahics and Interaction/Project 2.0/Water Project
-/Users/elin/Desktop/Computer Grahics and Interaction/Project 2.0/Water Project
+Successfully changed project path to: /Users/elin/Desktop/GIT/DH2323-Project-Repo/Water Project
+/Users/elin/Desktop/GIT/DH2323-Project-Repo/Water Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -73,7 +73,7 @@ Successfully changed project path to: /Users/elin/Desktop/Computer Grahics and I
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
 Player connection [8401826048]  Target information:
 
-Player connection [8401826048]  * "[IP] 192.168.0.208 [Port] 0 [Flags] 2 [Guid] 3813146352 [EditorId] 3813146352 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-som-tillhor-Elin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8401826048]  * "[IP] 192.168.0.208 [Port] 0 [Flags] 2 [Guid] 2071546451 [EditorId] 2071546451 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-som-tillhor-Elin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8401826048] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8401826048] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -88,10 +88,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.46 ms, found 1 plugins.
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/elin/Desktop/Computer Grahics and Interaction/Project 2.0/Water Project/Assets
+[Subsystems] Discovering subsystems at path /Users/elin/Desktop/GIT/DH2323-Project-Repo/Water Project/Assets
 Forcing GfxDevice: Metal
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M5 (high power)
@@ -105,61 +105,61 @@ MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56838
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-elin"
 [Licensing::IpcConnector] LicenseClient-elin channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin-6000.4.0" at "2026-05-03T10:40:12.993535Z"
-Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin-6000.4.0" at "2026-05-03T11:00:16.075284Z"
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000980 seconds.
+Registered in 0.001126 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              2e4e3741db4c42699f839236be35f3e6
-  Correlation Id:          9fa7d92b3e7528378e459e8550b58c7b
-  External correlation Id: 7228836089056739707
-  Machine Id:              QdbvG3rgmfBB7DsEBOZkreWDH5U=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-elin-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.39s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin-6000.4.0-notifications" at "2026-05-03T10:40:13.387385Z"
-[Licensing::Module] Licensing Background thread has ended after 0.84s
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.175 seconds
-Domain Reload Profiling: 388ms
-	BeginReloadAssembly (59ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (58ms)
-		AnalyzeDomain (95ms)
-			TypeCache.Refresh (94ms)
-				TypeCache.ScanAssembly (86ms)
-	FinalizeReload (175ms)
+- Finished resetting the current domain, in  0.205 seconds
+Domain Reload Profiling: 437ms
+	BeginReloadAssembly (60ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (60ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (96ms)
+	FinalizeReload (207ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (46ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (51ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 [CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              b636a417fc8942649efe690d62c610f7
+  Correlation Id:          493e00eaa36a1440eea61ba0cada9688
+  External correlation Id: 6672797057743767511
+  Machine Id:              QdbvG3rgmfBB7DsEBOZkreWDH5U=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-elin-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.58s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin-6000.4.0-notifications" at "2026-05-03T11:00:16.659344Z"
+[Licensing::Module] Licensing Background thread has ended after 1.08s
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -206,41 +206,50 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.329 seconds
-Domain Reload Profiling: 708ms
-	BeginReloadAssembly (65ms)
-		CreateAndSetChildDomain (10ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (266ms)
-		LoadAssemblies (179ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (80ms)
-				TypeCache.ScanAssembly (71ms)
-			BuildScriptInfoCaches (25ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (329ms)
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1005ms
+	BeginReloadAssembly (106ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (198ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (75ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (532ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (134ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Launching external process: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6300 unused Assets / (3.9 MB). Loaded Objects now: 7114.
-Memory consumption went from 146.4 MB to 142.5 MB.
-Total: 4.131667 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.103375 ms MarkObjects: 3.013208 ms  DeleteObjects: 0.786500 ms)
+Unloading 6300 unused Assets / (3.8 MB). Loaded Objects now: 7114.
+Memory consumption went from 146.5 MB to 142.7 MB.
+Total: 10.080042 ms (FindLiveObjects: 1.847375 ms CreateObjectMapping: 0.849125 ms MarkObjects: 5.319125 ms  DeleteObjects: 2.060583 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 298101.982449 seconds.
+  path: Assets/Script/Gerstner/Gerstner.cs
+  importAddress: Guid(0d151178714c54deb95ff601f78ab6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Gerstner/Gerstner.cs using Guid(0d151178714c54deb95ff601f78ab6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bd2927cebc484f9f59ac9eb95ac669a1') in 0.004366541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e59366a1b198e44ee8eaad2c64ad560 DependenciesID=be4d6eee5986b9212e9de7d071397543 StaticDependenciesID=aade6b77d4792d15b5ca88aa60d58220 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x16ffe7000 may have been prematurely finalized
+Thread 0x171007000 may have been prematurely finalized
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
 Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
@@ -280,22 +289,23 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.304 seconds
-Domain Reload Profiling: 629ms
-	BeginReloadAssembly (78ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (151ms)
-		AnalyzeDomain (78ms)
-			TypeCache.Refresh (5ms)
-			BuildScriptInfoCaches (67ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (304ms)
+- Finished resetting the current domain, in  0.312 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (173ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (217ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (9ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (312ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
+			BeforeProcessingInitializeOnLoad (66ms)
 			ProcessInitializeOnLoadAttributes (123ms)
 			ProcessInitializeOnLoadMethodAttributes (29ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
@@ -305,250 +315,8 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6298 unused Assets / (4.5 MB). Loaded Objects now: 7130.
-Memory consumption went from 158.1 MB to 153.5 MB.
-Total: 3.891708 ms (FindLiveObjects: 0.246583 ms CreateObjectMapping: 0.107833 ms MarkObjects: 2.765917 ms  DeleteObjects: 0.771167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 296900.403243 seconds.
-  path: Assets/Box.prefab
-  importAddress: Guid(f1d41820724794126bb56e22191a52a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Box.prefab using Guid(f1d41820724794126bb56e22191a52a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6766a4ed4a5ba19c08d92bbf0007f4ec') in 0.192181875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62fc935ef81069c0e5ec9fa6921056d8 DependenciesID=dfd0f80b535705934c14993cc70e1c48 StaticDependenciesID=0c8ade0b0a50573c3492867a2fc21204 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.262401 seconds.
-  path: Assets/Script/Gerstner/ReferenceObjectG.cs
-  importAddress: Guid(6853a6746f35c494990082e2f9364cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Script/Gerstner/ReferenceObjectG.cs using Guid(6853a6746f35c494990082e2f9364cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2031495af1fc3010b5308983aab1ad50') in 0.021916208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c8cbe827445ca79004833f0a55d8bc2 DependenciesID=af695dad57df35e13f04b469d41f26d5 StaticDependenciesID=c8e407204376b4fded9a6f2b0c13185a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Script/Gerstner/GridGenerator.cs
-  importAddress: Guid(75d939bdbd59445e5b02fccf08139a7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Script/Gerstner/GridGenerator.cs using Guid(75d939bdbd59445e5b02fccf08139a7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '64a5fe82419104c3da2ed53f0d109fa0') in 0.001592875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c141f0d69dc4937684610966f4101321 DependenciesID=ce81a380ff354306f531cede071a91d6 StaticDependenciesID=d63e015d37792ec701e69242e5f2b5e5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Saritasa/Scenes/Demo/ReflectionProbe-0.exr
-  importAddress: Guid(77323e84c9b249f4ca01c9c9e5dec2e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Scenes/Demo/ReflectionProbe-0.exr using Guid(77323e84c9b249f4ca01c9c9e5dec2e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3465726edeb6ff3eb31b7ffe36766094') in 0.015218083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11ad6017accf9b0bcbdebd8625310294 DependenciesID=2d9e14c52763d7d3e3ba979f052ba069 StaticDependenciesID=caf71aabda558c278e201eb3067ecebf 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Saritasa/Models/Sport_Balls/Football.fbx
-  importAddress: Guid(db2f4a5c0acbc43459e37d37a776413f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models/Sport_Balls/Football.fbx using Guid(db2f4a5c0acbc43459e37d37a776413f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6595390727a3e83635ff0a3ddd31ee4') in 0.017254583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50fc0303150d7e39433ea50590ebd028 DependenciesID=814a897f3e4197aa8036738a9c8e9c9f StaticDependenciesID=0eb78208fd55235879d96e0c9ca26768 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Saritasa/Scenes/Demo/ReflectionProbe-1.exr
-  importAddress: Guid(ee3fe4c0717c72148a8a40db733686d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Scenes/Demo/ReflectionProbe-1.exr using Guid(ee3fe4c0717c72148a8a40db733686d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0155d0e6623d15c29c408327106e26d6') in 0.002448833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22bf44ff088537905408db843ef5f1d2 DependenciesID=3bc85c60f298e4854bf3f829bb089fab StaticDependenciesID=8de1f6ba790bf86348cae4347687161c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Saritasa/Models/Sport_Balls/Tennis.fbx
-  importAddress: Guid(3405ec22bef4339439b628ee6e6bdb36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models/Sport_Balls/Tennis.fbx using Guid(3405ec22bef4339439b628ee6e6bdb36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2a3b4a6ae236a06ae942819202d6b3d') in 0.003088167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39da930b554d8678ed7b61d8ecc3d085 DependenciesID=66d3f1f9cded2eae32d73b98a33243e0 StaticDependenciesID=f37c3c57c40001af24e403d1f864ad24 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_light.exr
-  importAddress: Guid(743bc10f958c6b34ca8e7d2cc98f313a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_light.exr using Guid(743bc10f958c6b34ca8e7d2cc98f313a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8caeba8ce4895d7be0b4088f0e63db5b') in 0.009164375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd8a3e82c3963e2164401e963ca78935 DependenciesID=14d39e5b385574235d5defb57d8e19e7 StaticDependenciesID=e7d304e3f880ae482dcb7c7c0cb7a4d6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Saritasa/Models/Sport_Balls/Volleyball.fbx
-  importAddress: Guid(eaf91f38db66fc6439ff7704ed985e6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models/Sport_Balls/Volleyball.fbx using Guid(eaf91f38db66fc6439ff7704ed985e6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1e3cd1d63d7b6bd73b2a1ec1ed20d05c') in 0.003146334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=401dc39cda012ad95e53271608e8f543 DependenciesID=05da287949bfe6a871e916fd3a85063e StaticDependenciesID=07002f40aae46505ed1eddd61ef80d77 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball.mat
-  importAddress: Guid(be31224625b60e548947d91b1b12444f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball.mat using Guid(be31224625b60e548947d91b1b12444f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35dfd65d151a35957ba18a9439a23c6f') in 0.003788917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93a7ed34e1091517e4d67e296010ed00 DependenciesID=3b7435e309e0628f171c55d3234abf27 StaticDependenciesID=2e4c0b1776a74c5af049962558453d06 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Saritasa/Models/Sport_Balls/Materials/Basketball_A.png
-  importAddress: Guid(2d5e98c4e5eea41428f96ce0c6b88bfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Basketball_A.png using Guid(2d5e98c4e5eea41428f96ce0c6b88bfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '495408654b8aef2775019f028d48b24a') in 0.00335625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd8e75c7444aae1b31d176f583bb9fc6 DependenciesID=df79e864fa7ab8a46da0875488886bbc StaticDependenciesID=ecae68bc460b424fc2d923170683d7b4 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Saritasa/Scenes/Demo/Lighting Settings.lighting
-  importAddress: Guid(402dca7b8f5c7814d9984c21488946b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Scenes/Demo/Lighting Settings.lighting using Guid(402dca7b8f5c7814d9984c21488946b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '882361d8992aba6ca5075a9570af4d8a') in 0.005199542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=379b6ee913127c76ea4617b14831a385 DependenciesID=f2273cd2feef4170b84f6fdc4ab03eb1 StaticDependenciesID=d2d2321d1e335063256ef5c7ce6cf694 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Saritasa/Models/Sport_Balls/Golf.fbx
-  importAddress: Guid(73e7feea75218f842975c1e4a7b81bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models/Sport_Balls/Golf.fbx using Guid(73e7feea75218f842975c1e4a7b81bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e0978ca64119cce8ed5864d3a04f349') in 0.002708959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f1d761b298c596aa373bc92d6653c069 DependenciesID=b709c728b4a6a6c8e32365ef03618119 StaticDependenciesID=cbe4aad50992b497f85803de1b971dee 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Script/Gerstner/GerstnerNoWaves.cs
-  importAddress: Guid(d980704529b754294bc5eb94b67d55ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Script/Gerstner/GerstnerNoWaves.cs using Guid(d980704529b754294bc5eb94b67d55ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ebd8fdcb9b1f3a11286821cc7d9b40b') in 0.001257708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fec1f96be4c03412abd94c9102642ba3 DependenciesID=ece17aa9c7e0af566e53ed2a2cb3a824 StaticDependenciesID=176ccb5c7ec7d78f70033cbfddc3f5d0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Saritasa/Models
-  importAddress: Guid(d43667571ae3a0d44879fcb61bc7c9c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models using Guid(d43667571ae3a0d44879fcb61bc7c9c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e54a3740085b81db954a6c3c8c644730') in 0.001022167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b44e580b7d06b51a45631ef72e434ce DependenciesID=2cd1ae0921ecb5699e03d3e66e2a97c0 StaticDependenciesID=f1b3941715a8288145ee616dd4af4f2a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Saritasa/Models/Sport_Balls/Soccer.fbx
-  importAddress: Guid(c19c4d581da21544d8650aa084ac1bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models/Sport_Balls/Soccer.fbx using Guid(c19c4d581da21544d8650aa084ac1bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '02829da6c0fe66f016615511ce5ebc07') in 0.00289725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b302e1495768f4bdd1539221cc82863 DependenciesID=5082679e08948acd2598cc8350dda4c9 StaticDependenciesID=49b332a3b0ad3f0a0c3c4971338b137e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_shadowmask.png
-  importAddress: Guid(43a9f73ee3d431349bdb44bcc8378376) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_shadowmask.png using Guid(43a9f73ee3d431349bdb44bcc8378376) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35fda1ecbde362e9401c1240541a3adc') in 0.00311175 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=970feff37d56cda2a47a5c7794d6dd72 DependenciesID=45925a3564fa7b88d05ef5e0cd4a867e StaticDependenciesID=2322b8b4b65efcc9a7213f4b0164c3f1 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Saritasa/Scenes/Demo.unity
-  importAddress: Guid(f04dfe68c0fafac43bfa298d4ee62e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Scenes/Demo.unity using Guid(f04dfe68c0fafac43bfa298d4ee62e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c25ebfcc211310f654ac2bf7e33ce628') in 0.001480667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de300287faf94106127fad9865374974 DependenciesID=037f87c50003c424f36b29cd03ba8660 StaticDependenciesID=bb7021c4362142e87219280aabf6fc8e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Saritasa/Skybox/Skybox.mat
-  importAddress: Guid(22a90980f757ae74cbb37281810bf1eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Skybox/Skybox.mat using Guid(22a90980f757ae74cbb37281810bf1eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d5f315517bbc4bd95dfed17e6f7be7a') in 0.001696083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28db04242fffdb444655397187e46cbe DependenciesID=f2dc8187ddd4d6be8035ab3ece013162 StaticDependenciesID=a1d61ba7fa39a2aa31567f1cd166d403 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Saritasa/Models/Sport_Balls/Tennis.prefab
-  importAddress: Guid(db6cb79803d99de41ae15f15a875d281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Saritasa/Models/Sport_Balls/Tennis.prefab using Guid(db6cb79803d99de41ae15f15a875d281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f830b0d5837855194b491e1de08173b7') in 0.003955417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9236523a5bbed959b36bcfe46e974489 DependenciesID=4e0c60e2b0abaadf7eec0ee4c6958964 StaticDependenciesID=e19b6f1e2fe866f9b1f7ab5c26b7d260 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Script/NavierStokes/GridGenerator.cs
-  importAddress: Guid(d8b8289d311994e7790d4282a2e839eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Script/NavierStokes/GridGenerator.cs using Guid(d8b8289d311994e7790d4282a2e839eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4f988bfc581ca49f9804e00cddfadb92') in 0.001104875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6f84780230b2e53f3888d8b7c4805b0 DependenciesID=28c601e010f5ce9ae913b0c606916167 StaticDependenciesID=9029dae0d69453c45153748a6d174a98 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16ffe7000 may have been prematurely finalized
-Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.293 seconds
-Domain Reload Profiling: 651ms
-	BeginReloadAssembly (100ms)
-		DisableScriptedObjects (8ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (163ms)
-		AnalyzeDomain (85ms)
-			TypeCache.Refresh (4ms)
-			BuildScriptInfoCaches (76ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (296ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (119ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6299 unused Assets / (4.8 MB). Loaded Objects now: 7167.
-Memory consumption went from 162.2 MB to 157.4 MB.
-Total: 4.038834 ms (FindLiveObjects: 0.230125 ms CreateObjectMapping: 0.103625 ms MarkObjects: 2.915209 ms  DeleteObjects: 0.789709 ms)
+Unloading 6290 unused Assets / (4.9 MB). Loaded Objects now: 7124.
+Memory consumption went from 158.9 MB to 154.0 MB.
+Total: 4.094500 ms (FindLiveObjects: 0.236834 ms CreateObjectMapping: 0.104875 ms MarkObjects: 2.944750 ms  DeleteObjects: 0.807833 ms)
 
 Prepare: number of updated asset objects reloaded= 0

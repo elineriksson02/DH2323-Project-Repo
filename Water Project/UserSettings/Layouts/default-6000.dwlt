@@ -1423,7 +1423,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 62
+    y: 0
     width: 1512
     height: 36
   m_SerializedDataModeController:
@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 98
+    y: 24
     width: 239
     height: 444.5
   m_SerializedDataModeController:
@@ -1708,8 +1708,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 35984
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
@@ -1762,8 +1761,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 240
-    y: 98
+    x: 241
+    y: 24
     width: 957
     height: 444.5
   m_SerializedDataModeController:
@@ -2306,7 +2305,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
   m_Size:
     m_Target: 849.6045
     speed: 2
@@ -3272,7 +3271,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 568.5
+    y: 494.5
     width: 1198
     height: 305.5
   m_SerializedDataModeController:
@@ -3321,17 +3320,7 @@ MonoBehaviour:
     - m_Data: 47744
     m_LastClickedID:
       m_Data: 47744
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 47414
-    - m_Data: 47416
-    - m_Data: 47418
-    - m_Data: 47420
-    - m_Data: 47422
-    - m_Data: 47424
-    - m_Data: 47426
-    - m_Data: 47428
-    - m_Data: 1000000000
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3363,16 +3352,7 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 47414
-    - m_Data: 47416
-    - m_Data: 47418
-    - m_Data: 47420
-    - m_Data: 47422
-    - m_Data: 47424
-    - m_Data: 47426
-    - m_Data: 47428
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3500,8 +3480,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1199
-    y: 98
+    x: 1200
+    y: 24
     width: 312
     height: 776
   m_SerializedDataModeController:

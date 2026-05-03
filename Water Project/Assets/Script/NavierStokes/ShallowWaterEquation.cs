@@ -108,28 +108,6 @@ void Update()
 }
 
 private float debugTimer = 0f;
-    /*void Update2()
-    {
-        // Drive wave from edge
-        //ApplyContinuousWave();
-        ApplyObjectInteraction();
-
-        // Press Space for point disturbance
-        if (Input.GetKeyDown(KeyCode.Space))
-            ApplyDisturbance(gridSize / 2, gridSize / 2, 1.0f);
-
-        // CFL substeps
-        float dt = Time.deltaTime;
-        float maxWaveSpeed = Mathf.Sqrt(gravity * restDepth);
-        float stableDt = 0.4f * cellSize / maxWaveSpeed;
-        int substeps = Mathf.CeilToInt(dt / stableDt);
-        float subDt = dt / substeps;
-
-        for (int s = 0; s < substeps; s++)
-            StepSWE(subDt);
-
-        UpdateMesh();
-    }*/
 
     void StepSWE(float dt)
     {
@@ -193,12 +171,6 @@ private float debugTimer = 0f;
         System.Array.Copy(hNew, h, h.Length);
     }
 
-    void ApplyContinuousWave2()
-    {
-        float phase = Time.time * waveFrequency * 2f * Mathf.PI;
-        for (int i = 0; i < gridSize; i++)
-            h[C(i, 0)] = restDepth + waveAmplitude * Mathf.Sin(phase);
-    }
 
     void ApplyContinuousWaveWithObject()
 {
@@ -297,8 +269,6 @@ void ApplyContinuousWave()
         waterMesh = new Mesh();
         waterMesh.name = "WaterSWE";
         waterMesh.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
-
-        // Assign to CLASS-LEVEL vertices field
         vertices = new Vector3[(gridSize + 1) * (gridSize + 1)];
         Vector2[] uvs = new Vector2[(gridSize + 1) * (gridSize + 1)];
 

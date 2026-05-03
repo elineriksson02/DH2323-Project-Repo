@@ -19,8 +19,13 @@ The goal of this project is to explore water simulation, which is considered one
 - C#
 
 ## Results
-- Gerstner Waves: ~XXX FPS
-- NS-based model: ~XXX FPS
+| Scenario | Gerstner FPS | NS-based FPS |
+|---|---|---|
+| Water waves only | ~315 | ~736 |
+| Floating object | ~293 | ~702 |
+
+The results show that the NS-based model achieves higher frame rates due to its simpler per-frame computation, while Gerstner waves produce smoother and more structured large-scale wave patterns. However, the NS model provides better floating object interaction through height field coupling.
+See the full report for more details.
 
 ## Screenshots
 ### Gerstner Waves

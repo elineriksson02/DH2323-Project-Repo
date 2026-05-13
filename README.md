@@ -37,6 +37,8 @@ See the [full report](Report/report.pdf) for more details.
 ### NS-based model with Object
 ![Water Simulation](Video/NavierSimpleObject.gif)
 
+#Blog Part 
+
 ## Development Log
 
 **Week 1:** Read literature on wave-based and 
@@ -66,7 +68,7 @@ which is a common approach in the literature.
 **Week 4–5:** Added the SWE model and floating 
 object interaction. I originally had a different 
 Navier–Stokes simplification in mind but when I 
-started developing it, it didn't work at all — 
+started developing it, it didn't work at all,  
 it kept blowing up and producing invalid values. 
 After more research I found the Shallow Water 
 Equation model which is more tractable because 
@@ -84,13 +86,64 @@ edges to produce visible wave motion.
 **Week 6:** Analysed results and ran FPS 
 measurements. The evaluation was mainly visual 
 and based on my own judgment, which is a 
-limitation — ideally other people would evaluate 
+limitation, ideally other people would evaluate 
 it too, which is something the proposed perceptual 
 study in the report addresses. It was interesting 
 to think about the results because I kept coming 
 back to the question of where you would actually 
-use each model — and the answer was that neither 
+use each model, and the answer was that neither 
 is strictly better, they just suit different 
 situations.
 
 **Week 7:** Finished and polished the report.
+
+## Reflections
+
+### What I learned
+- Implementing physics-based simulations is 
+  significantly harder than wave-based approaches. 
+  Getting numerical stability right requires 
+  understanding the mathematics behind the 
+  simulation, not just the code.
+- The CFL condition and staggered grids are 
+  standard tools in computational fluid dynamics 
+  for good reason — without them the simulation 
+  simply does not work.
+- Comparing two implementations fairly is harder 
+  than it sounds. Small differences in how each 
+  model represents height or couples with objects 
+  can make the comparison unfair without you 
+  realising it.
+
+### What I would do differently
+
+- Start validating the SWE implementation against 
+  known analytical solutions before integrating 
+  it into Unity. Debugging a physics simulation 
+  inside a game engine is much harder than 
+  debugging it in isolation. I should have done 
+  more research on how to evaluate an 
+  implementation before building it in Unity — 
+  this would have saved time that could have been 
+  used for user testing or improving the visual 
+  output.
+
+- Spend more time on the visual output — adding 
+  a proper water shader with reflections and 
+  transparency would make both simulations look 
+  significantly more realistic.
+
+- Implement a more complete floating object 
+  system. It would also be interesting to 
+  optimise the interaction separately for each 
+  model and then compare the results — this could 
+  reveal whether the choice of interaction method 
+  changes which model performs better in 
+  different scenarios.
+
+- Test with more people rather than only 
+  evaluating the results myself. Having external 
+  participants evaluate the simulations would 
+  give more reliable and less biased results, 
+  which is also what the proposed perceptual 
+  study in the report aims to address.

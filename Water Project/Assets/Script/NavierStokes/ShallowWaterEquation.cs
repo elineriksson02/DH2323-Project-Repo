@@ -305,4 +305,14 @@ void ApplyContinuousWave()
         GetComponent<MeshFilter>().mesh = waterMesh;
     }
 
+    public float GetHeight(float worldX, float worldZ)
+{
+    Vector3 localPos = new Vector3(worldX, 0, worldZ) - transform.position;
+    int i = Mathf.RoundToInt(localPos.x / cellSize);
+    int j = Mathf.RoundToInt(localPos.z / cellSize);
+    i = Mathf.Clamp(i, 0, gridSize - 1);
+    j = Mathf.Clamp(j, 0, gridSize - 1);
+    return transform.position.y + h[C(i, j)];
+}
+
 }

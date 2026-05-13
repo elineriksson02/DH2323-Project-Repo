@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-03T11:00:15Z
+Date:                    2026-05-03T11:13:28Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin" at "2026-05-03T11:00:15.584223Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin" at "2026-05-03T11:13:28.954554Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63800
+63920
 -licensingIpc
 LicenseClient-elin
 -force-metal
@@ -73,7 +73,7 @@ Successfully changed project path to: /Users/elin/Desktop/GIT/DH2323-Project-Rep
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
 Player connection [8401826048]  Target information:
 
-Player connection [8401826048]  * "[IP] 192.168.0.208 [Port] 0 [Flags] 2 [Guid] 2071546451 [EditorId] 2071546451 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-som-tillhor-Elin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8401826048]  * "[IP] 192.168.0.208 [Port] 0 [Flags] 2 [Guid] 3011964303 [EditorId] 3011964303 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-som-tillhor-Elin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8401826048] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8401826048] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -88,7 +88,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.14 ms, found 1 plugins.
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/elin/Desktop/GIT/DH2323-Project-Repo/Water Project/Assets
@@ -109,19 +109,19 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56838
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-elin"
 [Licensing::IpcConnector] LicenseClient-elin channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin-6000.4.0" at "2026-05-03T11:00:16.075284Z"
-CodeReloadManager initialized
-Begin MonoManager ReloadAssembly
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin-6000.4.0" at "2026-05-03T11:13:29.614723Z"
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001126 seconds.
+Registered in 0.000395 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -130,36 +130,36 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.205 seconds
-Domain Reload Profiling: 437ms
-	BeginReloadAssembly (60ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
+- Finished resetting the current domain, in  0.201 seconds
+Domain Reload Profiling: 454ms
+	BeginReloadAssembly (77ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (30ms)
 	LoadAllAssembliesAndSetupDomain (115ms)
-		LoadAssemblies (60ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (108ms)
-				TypeCache.ScanAssembly (96ms)
-	FinalizeReload (207ms)
+		LoadAssemblies (76ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
+	FinalizeReload (202ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (51ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			ProcessInitializeOnLoadAttributes (52ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 [CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              b636a417fc8942649efe690d62c610f7
-  Correlation Id:          493e00eaa36a1440eea61ba0cada9688
-  External correlation Id: 6672797057743767511
+  Session Id:              a3007d17ab4c46aab1c2247c774d016e
+  Correlation Id:          566b3e68e2f78438ea8636ba9ba97260
+  External correlation Id: 212485304699370726
   Machine Id:              QdbvG3rgmfBB7DsEBOZkreWDH5U=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-elin-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.58s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin-6000.4.0-notifications" at "2026-05-03T11:00:16.659344Z"
-[Licensing::Module] Licensing Background thread has ended after 1.08s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-elin-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.51s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-elin-6000.4.0-notifications" at "2026-05-03T11:13:30.130702Z"
+[Licensing::Module] Licensing Background thread has ended after 1.18s
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -206,50 +206,1601 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.532 seconds
-Domain Reload Profiling: 1005ms
-	BeginReloadAssembly (106ms)
-		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (291ms)
-		LoadAssemblies (198ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (86ms)
-				TypeCache.ScanAssembly (75ms)
-			BuildScriptInfoCaches (29ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (532ms)
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling: 820ms
+	BeginReloadAssembly (79ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (203ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (91ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (376ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (183ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Launching external process: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6300 unused Assets / (3.8 MB). Loaded Objects now: 7114.
-Memory consumption went from 146.5 MB to 142.7 MB.
-Total: 10.080042 ms (FindLiveObjects: 1.847375 ms CreateObjectMapping: 0.849125 ms MarkObjects: 5.319125 ms  DeleteObjects: 2.060583 ms)
+Unloading 6292 unused Assets / (3.8 MB). Loaded Objects now: 7103.
+Memory consumption went from 145.4 MB to 141.6 MB.
+Total: 4.296833 ms (FindLiveObjects: 0.235167 ms CreateObjectMapping: 0.100833 ms MarkObjects: 3.123375 ms  DeleteObjects: 0.837208 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 298101.982449 seconds.
-  path: Assets/Script/Gerstner/Gerstner.cs
-  importAddress: Guid(0d151178714c54deb95ff601f78ab6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Gerstner/Gerstner.cs using Guid(0d151178714c54deb95ff601f78ab6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bd2927cebc484f9f59ac9eb95ac669a1') in 0.004366541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e59366a1b198e44ee8eaad2c64ad560 DependenciesID=be4d6eee5986b9212e9de7d071397543 StaticDependenciesID=aade6b77d4792d15b5ca88aa60d58220 
+  Time since last request: 298895.081115 seconds.
+  path: Assets/FreeSportsKIt_SA/Models/basketBall_mdl.fbx
+  importAddress: Guid(89b6fea1573f0a643a3de28f472d39c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Models/basketBall_mdl.fbx using Guid(89b6fea1573f0a643a3de28f472d39c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f1b32c9eefef0c2f7106ef67598aee7') in 0.055849416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bb31f59e4352d732a7591a84760d6f9 DependenciesID=dbfaf36526c6faa50fc28da10148e5d0 StaticDependenciesID=26345c223f476abfe7db8305c4b156d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/Golf_ball_LowPOly.prefab
+  importAddress: Guid(bdba71f8878efa74ebea7bdbd9308589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/Golf_ball_LowPOly.prefab using Guid(bdba71f8878efa74ebea7bdbd9308589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '258110aed2e5bf11f85b047181967d4c') in 0.005482583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=119e656065710a02101a34e38dcacfbf DependenciesID=5839645adf39c55770688076f3f7a77f StaticDependenciesID=9ba6a6ff88ae0e2c52a68eadb63b0549 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FreeSportsKIt_SA/Materials/Stumps.mat
+  importAddress: Guid(8769cd2b4bc0cf64185768b307a5ff80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Materials/Stumps.mat using Guid(8769cd2b4bc0cf64185768b307a5ff80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5cf74f475d1007159f20e6b1d3f0574c') in 0.055401833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8442c93da3c1e750353dfdadd754a0d6 DependenciesID=f467be988fc839d02caf94658524c3bd StaticDependenciesID=183e307e19657a6585b1ab22d34ef7e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FreeSportsKIt_SA/Materials/TennisBat.mat
+  importAddress: Guid(1723b205300d6684db8ea92aa54b7a17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Materials/TennisBat.mat using Guid(1723b205300d6684db8ea92aa54b7a17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd864617829ebd80499a517a411b907b7') in 0.047541166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74a4bf3241f4248a292b9f6a5c3c3bf8 DependenciesID=d5e6cd82304d6c6e35aabb37ebc1986a StaticDependenciesID=825f5ff2b07ca3797f759952fbaf57d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/SoccerBall_01.prefab
+  importAddress: Guid(c92f34a05ad69814ab379a90227f7eaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/SoccerBall_01.prefab using Guid(c92f34a05ad69814ab379a90227f7eaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7894745eae90b88cd193331fb580db6d') in 0.00634125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1745f4bb028898bfdb50529c27ef5d8b DependenciesID=be05a8357b40c5b74ef8f61d05fe5b10 StaticDependenciesID=f9befd4f77a009fddbe75616781f3efb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/WaterShaderMaterial.mat
+  importAddress: Guid(5ac12a19cdca94efb9c87e933c1fbe59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/WaterShaderMaterial.mat using Guid(5ac12a19cdca94efb9c87e933c1fbe59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd336b8852472e0e8831db127d2b7e8e1') in 0.006996958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=384014897992197d8e53643653f7125c DependenciesID=f5955e71d27ac514dced5c341e212652 StaticDependenciesID=f7a83587c422620d398d25105ece6cb9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/FreeSportsKIt_SA/Materials/GOlf_Ball.mat
+  importAddress: Guid(d0528d1e4db685645aab785abb903b19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Materials/GOlf_Ball.mat using Guid(d0528d1e4db685645aab785abb903b19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '05bbb44d28d6cd96e3f32d364288209b') in 0.006324625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afe6400eccda2fa25ef12e8a5a50b614 DependenciesID=8a729c781a1ce2454db5e6adde9205cb StaticDependenciesID=22ab5276aa34cbc899f89cb642145cea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/NavierWater.shadergraph
+  importAddress: Guid(c936977c9c64d493faafe034fce2b221) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/NavierWater.shadergraph using Guid(c936977c9c64d493faafe034fce2b221) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93e900c923dd0fcc93e191678b58b053') in 0.016001834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=391f0ef496d1a4b052da5df237dd12a6 DependenciesID=ba1b87cb7dbce1c90ab581ed54fbe131 StaticDependenciesID=dca4634d2dfa2eabd8a1a877dbbee4e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stylize Water Texture/Materials/Stylize Water.mat
+  importAddress: Guid(c6d38711520119c4e89ddf1ea6adc007) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylize Water Texture/Materials/Stylize Water.mat using Guid(c6d38711520119c4e89ddf1ea6adc007) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3d569cb9f370d8a9239a4b17f23ff904') in 0.02332275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7fbe0b5e434fefc2ebf9bf859459b11d DependenciesID=41e7c7e52ab3a0e38b963cf00c13964a StaticDependenciesID=16cb621500fd5ec27037e990253240f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stage_Normal_DirectX.png
+  importAddress: Guid(93139bb8e6b592b42bead9f32bda23f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stage_Normal_DirectX.png using Guid(93139bb8e6b592b42bead9f32bda23f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43ad4fb521b9cc4419f07c6c0664900d') in 0.014799042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf9287064048f17e95f699815fd3e50b DependenciesID=c842e43187043d17d04a8d428959d52e StaticDependenciesID=c6d8afcdb66076cf8f32e8e3e3499f66 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Saritasa/Skybox/Skybox.mat
+  importAddress: Guid(22a90980f757ae74cbb37281810bf1eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Skybox/Skybox.mat using Guid(22a90980f757ae74cbb37281810bf1eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca8df96628e0ec31b75a2bd39d7fdc13') in 0.001959083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=456ec6e33d66fe0c381a2d9642456712 DependenciesID=f2dc8187ddd4d6be8035ab3ece013162 StaticDependenciesID=a1d61ba7fa39a2aa31567f1cd166d403 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Script/NavierStokes/GridGenerator.cs
+  importAddress: Guid(d8b8289d311994e7790d4282a2e839eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/NavierStokes/GridGenerator.cs using Guid(d8b8289d311994e7790d4282a2e839eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '80323a1804a7d9878aa7029be054e224') in 0.001266292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b81a4348fcd836dce3db3d7e3f2aed1 DependenciesID=28c601e010f5ce9ae913b0c606916167 StaticDependenciesID=9029dae0d69453c45153748a6d174a98 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/basketBall_mdl.prefab
+  importAddress: Guid(244373c0583ec814fb00ea6f1633d3c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/basketBall_mdl.prefab using Guid(244373c0583ec814fb00ea6f1633d3c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6316242008360cf00a48d079f393de94') in 0.002901333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2dd804ffead9d27557195942045573d DependenciesID=478276f9b6af34d3ad7863609a986048 StaticDependenciesID=d6d65f5d76ccf4d03dcb4f73e9e3f18b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/YughuesFreeSandMaterials/YughuesFreeSandMaterials_HDRP.unitypackage
+  importAddress: Guid(6def0cd22c5a9fa4a96a00c9a6b7291f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/YughuesFreeSandMaterials_HDRP.unitypackage using Guid(6def0cd22c5a9fa4a96a00c9a6b7291f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f8784f6d27ca54cbc3c4e7e2e940feca') in 0.001175 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b48c909ee698ed12c568fecc16bfaac9 DependenciesID=6f130995d52743f7437e626d72c234aa StaticDependenciesID=d69a531405c78aff88d3e68c6549cf0d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stylize Water Texture/Scene/Stylize Water.unity
+  importAddress: Guid(f0dc6c2fa94df594aaa63aca69a33e07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylize Water Texture/Scene/Stylize Water.unity using Guid(f0dc6c2fa94df594aaa63aca69a33e07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cfb55d35645a6d2db38d2bca09b84841') in 0.002406958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9ad5bda8351d58d47b84104e3c4bc2b DependenciesID=e5193b012b50c976b91b5ae031c0ff78 StaticDependenciesID=cacadcbb8565e1a575001fc87a95d394 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/Gerstner.unity
+  importAddress: Guid(b614600fa9fed49cf95c0dd8ed25e55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gerstner.unity using Guid(b614600fa9fed49cf95c0dd8ed25e55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '70a5f9d2f3c6e8ac5c4956a2f6685e62') in 0.000263667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b380bf7d021d8b4697d797a6f2a3c145 DependenciesID=b1244709e50df102564638200d592c26 StaticDependenciesID=c80805b4c52172856b2a8692c3d43398 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/FreeSportsKIt_SA/Materials/Stage.mat
+  importAddress: Guid(2bf184e713602d8479b03c656559fcc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Materials/Stage.mat using Guid(2bf184e713602d8479b03c656559fcc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0cd7638cba1c3b7b042ed860351c769d') in 0.00918925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=941abc5f11f704e9d712b47e209a38a3 DependenciesID=ca51cd4faddb93bde0dfb2163643aea6 StaticDependenciesID=7bd7380170ae2809c4c911dcb19c22fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Recovery/0 2.unity
+  importAddress: Guid(76f8cb7a26b244a8ebc93bfd56e64b9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Recovery/0 2.unity using Guid(76f8cb7a26b244a8ebc93bfd56e64b9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a9a1d8835feb40be6dbb18ce66600d30') in 0.0013875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fce69c537690afeb15194be742ea32ac DependenciesID=60fa916b1ca34e556b45ae10a5645073 StaticDependenciesID=97784f21e090654fc5b30598fa5c8ea9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FreeSportsKIt_SA/Models/tennis_net2.fbx
+  importAddress: Guid(1dc2d20dbc499bf489fa970ea2a5d5f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Models/tennis_net2.fbx using Guid(1dc2d20dbc499bf489fa970ea2a5d5f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ee7738281834b9401a6b7a039641c98') in 0.00511425 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1117fd73525e226bc2526168b2214c7f DependenciesID=c559a29babcc95a582573aca8164e62c StaticDependenciesID=a24ce393c68286e479c446a60ad7a788 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand07.mat
+  importAddress: Guid(07a9a9609108e4b4caf4730f4f6e0761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand07.mat using Guid(07a9a9609108e4b4caf4730f4f6e0761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7b14c9d84f791316e0b14ba8e7804773') in 0.05147125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aaab2982b5301d04159781cf9db3b697 DependenciesID=600b81da47d50aafbe5030493cd30aeb StaticDependenciesID=e960f8284998e64a47706f5cfbac0acc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/P_Sphere_01.prefab
+  importAddress: Guid(e997fa9f4e1bfd44882074e9e02cfe60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/P_Sphere_01.prefab using Guid(e997fa9f4e1bfd44882074e9e02cfe60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '37f6e9e1f9a26b503538155ce667a7f0') in 0.007070167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4935d45e66bf572661a9caf6a571150c DependenciesID=9cfd31c8c14680154a624e1a2eafecf3 StaticDependenciesID=665677156dc73d8ba7b7b5244300b654 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Roughness.png
+  importAddress: Guid(f10d29a80bdd36144b8303811abc46ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Roughness.png using Guid(f10d29a80bdd36144b8303811abc46ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5290ebed5799891b549bc9ac788cfa55') in 0.005047875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db31049bed3185bee5fd3e6e1eb5d69d DependenciesID=3b2854765944a9b356be56d29a889d23 StaticDependenciesID=cb0cc81a46433f44a8f97d64e9e310bf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview.unity
+  importAddress: Guid(853f4e220e7e62d4a8533714f45c26c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview.unity using Guid(853f4e220e7e62d4a8533714f45c26c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c4ec2156d156bdc226a7578865cb6175') in 0.003087459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=684414705c692eba22bde113cfd0b249 DependenciesID=238c741d7e955b4044d1c1244010df3c StaticDependenciesID=72efba6e1692d8dd8022b2a654bbd4d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_02_n.tga
+  importAddress: Guid(0894414c653764342adc30ca54e1de4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_02_n.tga using Guid(0894414c653764342adc30ca54e1de4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '06a636a59cdb17ce90838b11cdd273e3') in 0.004557875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe614fbb1df499cf759a6591bd54c798 DependenciesID=2eaf5df8f7db35ec4fa8fd15e67017b2 StaticDependenciesID=03eb4888b4f5846735e2caa2fb1d4380 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FreeSportsKIt_SA/Models/ball_HighPOly.fbx
+  importAddress: Guid(90fbadbc9ffbb274c9505108a3480f3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Models/ball_HighPOly.fbx using Guid(90fbadbc9ffbb274c9505108a3480f3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd67db43efc15f0f5439c6b9cb36c0254') in 0.005258667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab6b768f097d312497db8d679f1e5307 DependenciesID=813e28c031b6e1863d17381adfce3ba9 StaticDependenciesID=e9cea63c8ccb58b6e97f388b4d02cb4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Skybox/Scene/mainScene.unity
+  importAddress: Guid(7540eab4397561d4cb2a37cb06761818) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Skybox/Scene/mainScene.unity using Guid(7540eab4397561d4cb2a37cb06761818) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f3288c36ea7861a351a1590628edeef') in 0.002565375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=031745db8c7ce5b16cf36731c7e62c5a DependenciesID=bc20d77fbb5ba6f4fbdd41c4c5c8564d StaticDependenciesID=351106c2a5613d62917a88c199d8e42a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/Stage.prefab
+  importAddress: Guid(b784da870b94d874eadfdc67f3a40aa8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/Stage.prefab using Guid(b784da870b94d874eadfdc67f3a40aa8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6886502013e18a7bc3f0cf2958272ba8') in 0.003114166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b64272ce4d5244e9ccafcf535e5b7f89 DependenciesID=f95a8f0015923970015d4842cad5f03a StaticDependenciesID=6e8b3c6d1ba51a1604023373cafb305e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  importAddress: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a377a9c7bdcc047bd0477b28111aae58') in 0.001257125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1df5a91faa868d07123bf4fe16b2d087 DependenciesID=7727a2ae2d5e5898abd39aebb57d9dbd StaticDependenciesID=8fc76c5d890840b1ecd6a3fa413f5d98 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FreeSportsKIt_SA/Materials/Tennis_Ball.mat
+  importAddress: Guid(98af9e86e86b0304aac4ff329d6db525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Materials/Tennis_Ball.mat using Guid(98af9e86e86b0304aac4ff329d6db525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '239de389ec9dec79d4470e64fe3190e4') in 0.008655708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=89682e5171d431a4307031176f91cdd5 DependenciesID=59ca93eb9b871b8f58c7f65d983651a7 StaticDependenciesID=67017c1bf463998fc512ff3602e17c60 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/volleyball.prefab
+  importAddress: Guid(bb0018446001beb4b9823dd1061bdf32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/volleyball.prefab using Guid(bb0018446001beb4b9823dd1061bdf32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed06538af2a37951cda0a07172885564') in 0.003174958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6157f5087d062e71afe06dac458d8df6 DependenciesID=54df2a68311313770337face47923d9d StaticDependenciesID=53ab3189807f93942c706b848af03074 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FreeSportsKIt_SA/Models/SoccerBall_01.fbx
+  importAddress: Guid(77d0b00bd45ddc84eae1606b4748ffe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Models/SoccerBall_01.fbx using Guid(77d0b00bd45ddc84eae1606b4748ffe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6bc55a7e2f239e7e3d67fea8e593c07a') in 0.003862458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66f91c9d078994c395a64113f0a92a63 DependenciesID=e27a8382b3599d133ca968d81152c5fd StaticDependenciesID=cd3da11b50eab51ba462129421203355 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand10.mat
+  importAddress: Guid(02e59e8bb6d659f4c85823d2b6745c7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand10.mat using Guid(02e59e8bb6d659f4c85823d2b6745c7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0de47693c853fdc4428f7f7effde5738') in 0.005507333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a17144ac5a86e56a07d887010b0b79c DependenciesID=18730311b47cbcc9089889fd2f7b5ed7 StaticDependenciesID=1d82047e882f0bfa923db0a4f8f13832 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FreeSportsKIt_SA/Animations/SceneSetup.controller
+  importAddress: Guid(e95f4deb7c137774086495f0edd30776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Animations/SceneSetup.controller using Guid(e95f4deb7c137774086495f0edd30776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b37d63bcfd7e9c5f321a10d80accc9b3') in 0.004113792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba2ff9c75995f02cfe5535961d8b110a DependenciesID=3e234010815ac83f91c0a4c511e136c4 StaticDependenciesID=1a876da09e991d542444f6aa187c84dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Script/Gerstner/GerstnerNoWaves.cs
+  importAddress: Guid(d980704529b754294bc5eb94b67d55ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/Gerstner/GerstnerNoWaves.cs using Guid(d980704529b754294bc5eb94b67d55ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '464de6d1ba2760ef9f5f95e4a5dc805f') in 0.0014435 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9ad848786f5744c68061e7b825817de DependenciesID=ece17aa9c7e0af566e53ed2a2cb3a824 StaticDependenciesID=176ccb5c7ec7d78f70033cbfddc3f5d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Script/NavierStokes/ShallowWaterEquation.cs
+  importAddress: Guid(9fba9d15a3e2a4804a5b4c9921bb74e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/NavierStokes/ShallowWaterEquation.cs using Guid(9fba9d15a3e2a4804a5b4c9921bb74e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab7512ffa45fd30fa64d6c3b94ac18ee') in 0.001384333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6fb0d55a1ef31347e76eb5487649af7 DependenciesID=d7ec167503b3ee80902e81ef65b7369c StaticDependenciesID=cee476cbf0ba828a5d11b29d4798c1f8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Skybox/Materials/Skybox_Sunset.mat
+  importAddress: Guid(4067de1a02072244798361060c5e7325) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Skybox/Materials/Skybox_Sunset.mat using Guid(4067de1a02072244798361060c5e7325) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'edb64d8ba6fffa7f22f09eedba21d6c4') in 0.018243375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=901341be9f6697a638b67e4a51f9610d DependenciesID=9b97a000dfe88e4a50b1b4ebbbaadca5 StaticDependenciesID=26f413b9bf96cfb2605bbbade1d43514 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sphere.prefab
+  importAddress: Guid(df1d8ff4e8f8e42cd98c749e9eded7fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sphere.prefab using Guid(df1d8ff4e8f8e42cd98c749e9eded7fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53c6edb9f73f7ff027cd8de363a5cd41') in 0.00469375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa44a8d9256fc9ab21ff21a036b5bd6e DependenciesID=74ac739611da0bbd28be619b72586981 StaticDependenciesID=098f62c832e59ede5072da6ae45b566d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Skybox/Scene/mainSceneSettings.lighting
+  importAddress: Guid(bd7db8291b79244bbade6e2b2e10b3f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Skybox/Scene/mainSceneSettings.lighting using Guid(bd7db8291b79244bbade6e2b2e10b3f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd288ec34e86f1192388a6bfff7243802') in 0.004933292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4036b04e8d0bfc8b566eaf5260e156c DependenciesID=ce1651c3cd307a4f4f2ebe66300ba797 StaticDependenciesID=9719652e9eb2aa9db88f25c33a9d9609 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/tennis_net2.prefab
+  importAddress: Guid(d91cc4490d89879468a73f7eaa62f753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/tennis_net2.prefab using Guid(d91cc4490d89879468a73f7eaa62f753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd4fd2f0e06fd07cc8775d7a137b868dd') in 0.021745417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d0c280c42057f49b49568cc5311df41 DependenciesID=2ca17bbfa4733f93aea82126d36c7a8b StaticDependenciesID=394419de5d51da59452c72e3dbdd24ca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sphere.prefab
+  importAddress: Guid(df1d8ff4e8f8e42cd98c749e9eded7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(df1d8ff4e8f8e42cd98c749e9eded7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ae931b6ad351b5cd01b28a180c9f5b48') in 2.811392125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae155a3d51d466e232a6ca00fc5da278 DependenciesID=0ed61f5c687d8196987715ce5b61b645 StaticDependenciesID=6b33e23bed8b95e2b87234f0d84a3d3d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand05.mat
+  importAddress: Guid(9fbbd38626fd1904daa084e924084008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand05.mat using Guid(9fbbd38626fd1904daa084e924084008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2d6fc9a6d1702de1004361fc80f41ae') in 0.003871875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1aa376e0f81cf11a41e32f254671491 DependenciesID=8ac258ebd87051586982589714fca674 StaticDependenciesID=fa0bb7ad94fe903ea9dbfb5326f0ed8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  importAddress: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bdefcc23c65144326d96162a51948789') in 0.027061375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f81741989910a386d01535a91334e68f DependenciesID=32dc805b2d34ecc1892cab8a4bf3a39b StaticDependenciesID=bc4a32a7951a716226846dd7a25156a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Readme.asset
+  importAddress: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8f35344b8ffee1c9c97b8244754a980a') in 0.001395375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f239c3b2c5f5524d591ac6c531473032 DependenciesID=d82bb6c7e3604c6aead65e649addaa72 StaticDependenciesID=0c7a104953a90fbb8020448b0a5f929f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Recovery/0.unity
+  importAddress: Guid(a9b1d8f32b99a42f8a2ce32dff94e93b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Recovery/0.unity using Guid(a9b1d8f32b99a42f8a2ce32dff94e93b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ddfd04ba310d1b5432254c0a793b8132') in 0.00171975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e83d82addab85341a5a7f93a6f38eb5 DependenciesID=d5905a28a5ed65f7b87693a9d440f254 StaticDependenciesID=7d1e5c125a08f752cafd1c6783cca4b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_01_s.tga
+  importAddress: Guid(727515523dc93474cbb7746cd5f412a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_01_s.tga using Guid(727515523dc93474cbb7746cd5f412a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bc9c710ab0410c1d36fa953d90503689') in 0.004005708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f70b2716f151d450cd816406fb12733 DependenciesID=f988ad89f2213efb1286a40a1b9c8183 StaticDependenciesID=82901670a9dbf014b253e42aeabba0c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_07_n.tga
+  importAddress: Guid(a2c76085559b3b44a92ddd3231c2b83d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_07_n.tga using Guid(a2c76085559b3b44a92ddd3231c2b83d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e9b6d067a5a24f486c48f1f2b35054cd') in 0.003050709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46f68fadc776c3706cd859c6b152303e DependenciesID=dfaf66261a2adc0be0f6fdf628301dbc StaticDependenciesID=1917dec6b6df4b2c0688f51bb152cff8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand06.mat
+  importAddress: Guid(d7e3cf47d90a5e644bec3ccaf0112d15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand06.mat using Guid(d7e3cf47d90a5e644bec3ccaf0112d15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '680cd7831d270e6047fa60351cac8150') in 0.005574667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c1abf0d61c61c0534357a3abb93a900 DependenciesID=9732fe1bd264ecd5cd17e50b9463e93e StaticDependenciesID=f1e6b825a3b9bdad2ffeaba81fabea8a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Readme.asset
+  importAddress: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '49e5dd848f9022bd53a4bb9cd863e5f7') in 0.00193 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3b227393c6a3c303b1d0875365031c5 DependenciesID=0334e152013890af7e25953b309a1b16 StaticDependenciesID=aea6e1cd556bfcdd983c43da83a41dd0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_07_s.tga
+  importAddress: Guid(c1b0b6b0405ffc0459301a9ae4fab1f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_07_s.tga using Guid(c1b0b6b0405ffc0459301a9ae4fab1f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4eac7011ba9df3c7bf7129041c062b81') in 0.004209209 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ccf1c5e57bed811e19ac1310a3ae8f5b DependenciesID=af81b0a00530199483c3a0d47aca9c2a StaticDependenciesID=517343e23c43b1a4353d67702d0ce4c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_03_n.tga
+  importAddress: Guid(d01bfef8410e7824a85ae141a975069a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_03_n.tga using Guid(d01bfef8410e7824a85ae141a975069a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71412f66d280ee8d61c01357b8a60cc8') in 0.00410875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0498865bbcac77aa40c0aa53f15a023b DependenciesID=150dfcbbbaeeee37b8abbfb76e056a96 StaticDependenciesID=887aaa24c1a43bde32daa99151daff91 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_04_n.tga
+  importAddress: Guid(22c36cbf2fb72a84db6affbf64f03f00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_04_n.tga using Guid(22c36cbf2fb72a84db6affbf64f03f00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec744ebe0bf26025de25bb48b400b6f3') in 0.005910875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2f6b8b51b7e254723590792afb029d4 DependenciesID=b2fb03f830aab932a99f3ad808cc0184 StaticDependenciesID=60ea6123b51429e6515c0a4b26b7d6bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/fairways.prefab
+  importAddress: Guid(79fee2343f1069945991d15dbe3c0fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/fairways.prefab using Guid(79fee2343f1069945991d15dbe3c0fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a6518cfe0c1d91d94e0746449b842b14') in 0.00211725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=061fda8a1926fe28b759f90d92ef6175 DependenciesID=8aab2ffc660c9654570ca76cee4e4ebf StaticDependenciesID=c6c2b03811f214102eb26075b6a7f4ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  importAddress: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd3b84af213a26de274720b92170a5e7a') in 0.004330958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d5083f1b6398749573d00b232d57940 DependenciesID=251e79430a6073ac9fbd9bd5ecb76de0 StaticDependenciesID=8c385e7c5b969a03d4cd2456362bfa67 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/Cricket_ball.prefab
+  importAddress: Guid(f51be6ae2533b8544ae52fc550452121) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/Cricket_ball.prefab using Guid(f51be6ae2533b8544ae52fc550452121) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '000e8c8c2ba65d98c31677ad4b8ec387') in 0.003059875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e29fb143f3acd762d353d21f15fb375 DependenciesID=85cfc1b582501516c35c2115e5369e97 StaticDependenciesID=a947fcbada311af7145e4a29b677e158 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_10_n.tga
+  importAddress: Guid(c926ba019d895834b8c93df6c67db4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_10_n.tga using Guid(c926ba019d895834b8c93df6c67db4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cbdad216e28147706c2c4cb11979745c') in 0.003346875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd6292df2e79676dc16e15c5f3845634 DependenciesID=ba5e3e109460071143cb3db97dc4ecf4 StaticDependenciesID=d09bf832a0917f32e833ac3d1920eec8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Script/Gerstner/Gerstner.cs
+  importAddress: Guid(0d151178714c54deb95ff601f78ab6a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/Gerstner/Gerstner.cs using Guid(0d151178714c54deb95ff601f78ab6a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e9c36ca7b65a22184ff7affc97c78c96') in 0.001327666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d9ff15f5b55f98db26fffb8aae56533 DependenciesID=a203f75241e546778c8f19ef6dfc2326 StaticDependenciesID=d10ee9796217c709534030ca320220e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Skybox/Cubemaps/sunset.hdr
+  importAddress: Guid(656a59a5ff93c46498416d97e5c16b66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Skybox/Cubemaps/sunset.hdr using Guid(656a59a5ff93c46498416d97e5c16b66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '21275bde0819753e37aef1df40431287') in 0.014750125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c60a1fbe3979221d9b88f8378757d2f DependenciesID=e459795c99c350807122f8ade2787108 StaticDependenciesID=b058a85b179f1979a611c7facc6c677a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FreeSportsKIt_SA/Materials/Soccer_Ball.mat
+  importAddress: Guid(e6b6a92f3e5a2d841afe9169e545cba6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Materials/Soccer_Ball.mat using Guid(e6b6a92f3e5a2d841afe9169e545cba6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c99017b740c5bddb470623becff8edf6') in 0.005856583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ca49a114ef75b5cb26ea0ae4676f7df DependenciesID=3bb0b113f142a1591ccb0345aac6e497 StaticDependenciesID=d8a54d101f3f514c92f62ea52dc0e482 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Emissive.png
+  importAddress: Guid(92de9fbb5fd25fe40a72ae7751d83b52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Emissive.png using Guid(92de9fbb5fd25fe40a72ae7751d83b52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8d4030c8aab09df7d71c4d17cadb2ea0') in 0.003815416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2f9bd28bbf898df0e4f21feeede0361 DependenciesID=c5bd0a5c8ecaca64cfbc2c8c82e4cf22 StaticDependenciesID=da3e387aa4c0533de5cf8f94cdaac26f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_10_s.tga
+  importAddress: Guid(cbaf06fa4d9252544b9722e1a871902e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_10_s.tga using Guid(cbaf06fa4d9252544b9722e1a871902e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bf3a1ca2614ba13fedfde6e2d7825210') in 0.002913125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2eda56a2a9e0bb917edc4518d0ab5e61 DependenciesID=f834203e4d5e59c9af8cf080a9e9c761 StaticDependenciesID=4437188773f06129a8726988c59038c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  importAddress: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0154f94e5141b98776a2d2efb33f3a73') in 0.062700417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69d43bc27490f30c71330f6caf5818e1 DependenciesID=389d1d5cf87ee2ed8c93c433e5f956c0 StaticDependenciesID=e4b18e1425fd328e1d531dc669051c77 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/YughuesFreeSandMaterials/YughuesFreeSandMaterials_URP.unitypackage
+  importAddress: Guid(16e6644b4f0dfe840bb590c09117b78c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/YughuesFreeSandMaterials_URP.unitypackage using Guid(16e6644b4f0dfe840bb590c09117b78c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '835eb9dbd9a64323ec45489931ff43f5') in 0.001403333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a575626182a4bde9ff3836b5b0fb7134 DependenciesID=134c2175cd80934a50bd83a86dec22a2 StaticDependenciesID=b7fb6c351da7ec6585c651276e3d69e0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stage_Mixed_AO.png
+  importAddress: Guid(670b128dcb849cf488addf250e763cb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stage_Mixed_AO.png using Guid(670b128dcb849cf488addf250e763cb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f59f906136b44c89779aa121d925cd61') in 0.003507375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a36d7516981455fce41d29229a30647f DependenciesID=86029709980827fe3161881ada89f793 StaticDependenciesID=21b3d6f7e5ab87294b11e964a7f63340 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  importAddress: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bacdc928463595783c2dd91f51bc10aa') in 0.009717625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aacb7dd58002e7ee0561ab8df0655bb9 DependenciesID=2befec61041d72b8a5b8c0d20991c443 StaticDependenciesID=2c3f6972d0f296b116fd4923e143a841 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stage_Normal.png
+  importAddress: Guid(c972517ec04755e41ba8f70dc3e45b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stage_Normal.png using Guid(c972517ec04755e41ba8f70dc3e45b94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '888cc857d04efc89d4dc2337d3f9aa6c') in 0.004286417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b4d4042d95d165fe53b3e376f8a5732a DependenciesID=da5ab680e743b5099228e60608b3e212 StaticDependenciesID=47cf1f82eff016021dcee1388c960766 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefab Water Plane.prefab
+  importAddress: Guid(926492a786e31463389d1220a180876e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab Water Plane.prefab using Guid(926492a786e31463389d1220a180876e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c01dbbac135f1c56a5f313d8d4cbedae') in 0.004936167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc7541038685bf9a03af7346a9420d24 DependenciesID=da66c0f3bf9742df7a004540296ed0b1 StaticDependenciesID=bbdf3621ac517c75ac64b549f83e44c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_11_n.tga
+  importAddress: Guid(69a754a8c7a4cf6488e63de2d186d0b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_11_n.tga using Guid(69a754a8c7a4cf6488e63de2d186d0b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d86149c6c1c24b3712017caaec48e28') in 0.006268417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec2779855069e0c6d303a9fd5aba6f21 DependenciesID=8767a17ea5800c19115b0783f5852c13 StaticDependenciesID=ceb5e0c99d259478539f2b1e88ffd9d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/Cricket_bat.prefab
+  importAddress: Guid(22abe087e79a19d4fa5bbb74c065336f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/Cricket_bat.prefab using Guid(22abe087e79a19d4fa5bbb74c065336f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '48b96a4dfa95bb6aa5974ffd35659a2d') in 0.0048265 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=811790ab49b0932562855437187b746e DependenciesID=7f9472fb89edd5512238fcb53108c07a StaticDependenciesID=047488145ad127a75c84a186d477f0fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_10_d.tga
+  importAddress: Guid(fb4564b6240a63e44b49c9190955dd46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_10_d.tga using Guid(fb4564b6240a63e44b49c9190955dd46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd00bbf3d19bece943678df18206bce9b') in 0.00309275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2dd897128ff83f423e4f6ae0774a69d7 DependenciesID=b3a3ed7a3cba4a9574e0c587f58bc0a8 StaticDependenciesID=5c7529c33a42f6e570d3ac449e2739d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FreeSportsKIt_SA/Materials/Volleyball.mat
+  importAddress: Guid(6014e4d68c5ae7847ac841dee5408fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Materials/Volleyball.mat using Guid(6014e4d68c5ae7847ac841dee5408fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b973586cb3bc7193510440ade105fb60') in 0.007284708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50b4193a3f5b5ae7d5b829071665da94 DependenciesID=69f050bcd3f275bb0f0e5952b155c225 StaticDependenciesID=60f3d5228cbc8b755b735eeff1bb8719 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FreeSportsKIt_SA/Scenes/Model_Demo.unity
+  importAddress: Guid(b2ec6a8e9255ef348a4ce9f39b497063) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Scenes/Model_Demo.unity using Guid(b2ec6a8e9255ef348a4ce9f39b497063) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '311b7d2ab444788b765b35fc6f967eed') in 0.002090333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=338390a017f91da950a791680ed13ec6 DependenciesID=bd297d015a7fb06faf55c3524bf64384 StaticDependenciesID=2cd0aeb831ae3cce42dc2d48a37615ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SandBox.prefab
+  importAddress: Guid(3fad4638dc8f846d6adb8ac62c8d417b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SandBox.prefab using Guid(3fad4638dc8f846d6adb8ac62c8d417b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '36b4575c121784bfed507feee161cfa1') in 0.002673542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26a2fd588a1542e8b4e680485c83d6f8 DependenciesID=96bd48d183b4a7f9ea9b5bda453369a1 StaticDependenciesID=c56a6c76fa99848bb5b127c13263261f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_02_s.tga
+  importAddress: Guid(062422dbcab1e38478c685c5fac83e55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_02_s.tga using Guid(062422dbcab1e38478c685c5fac83e55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee09cc456bbc65b09284000ee140748e') in 0.003300792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2aff9f82f634c1536e9fdb7aade5633 DependenciesID=0f0af45e54c5bdc5d4a651dc1cb97bd3 StaticDependenciesID=6c680c6c2ca0694af29aba1a77d082a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FreeSportsKIt_SA/Materials/basketBall_textures.mat
+  importAddress: Guid(591574320a9fedf469b84eca75c03dbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Materials/basketBall_textures.mat using Guid(591574320a9fedf469b84eca75c03dbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b120180e824598452adeba3206e2dc2f') in 0.005230583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=375e4aa6fd00daeac597d8b89ca850a0 DependenciesID=33a142ac4418759effa941c0412decdc StaticDependenciesID=ed1dada1468deb2f25399e948e2bc493 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FreeSportsKIt_SA/Models/Cricket_ball.fbx
+  importAddress: Guid(743c9bd594a3d0c44a807e5cd407b3f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Models/Cricket_ball.fbx using Guid(743c9bd594a3d0c44a807e5cd407b3f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '61971ecfe7e18b47584efde262136fcf') in 0.003688292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7594bc612a2d00406c5cfa144ae3ae69 DependenciesID=3a7681953afd282113cc62def3fda9e4 StaticDependenciesID=d1f515cbfd4c04fbc4db7e525858a61a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FreeSportsKIt_SA/Models/fairways.fbx
+  importAddress: Guid(7d9b79cf4769d284e869cc13e21fd673) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Models/fairways.fbx using Guid(7d9b79cf4769d284e869cc13e21fd673) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '792dc20b324ea1519c9189e88a81346a') in 0.004955541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a087895f26752b03c8dc96970ae47b1 DependenciesID=15d87b9ed8cecfc0c2f6e9ac9d90e65a StaticDependenciesID=c56dc0524b6f9cc9af42dbcc055763e1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Material/Imported Texter/WaterSurface_atlas.tif
+  importAddress: Guid(ae7066f03d6f843c7933db46096e0a94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Imported Texter/WaterSurface_atlas.tif using Guid(ae7066f03d6f843c7933db46096e0a94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dbf7fa393a157ae31cadf84f8d226a5c') in 0.003063167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b93cee695fc7c8ad966c013e485f5487 DependenciesID=58492696deddd26dffc1b7cb2021175f StaticDependenciesID=230448f6e5ac67504aadd0ef100ecaa6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Saritasa/Scenes/Demo.unity
+  importAddress: Guid(f04dfe68c0fafac43bfa298d4ee62e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo.unity using Guid(f04dfe68c0fafac43bfa298d4ee62e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bdedc2ff23406afc04bfe4fa6a0f3d79') in 0.013208584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e98f78b0c40718f8740d06a2a665c090 DependenciesID=037f87c50003c424f36b29cd03ba8660 StaticDependenciesID=bb7021c4362142e87219280aabf6fc8e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/Golf_ball_HighPOly.prefab
+  importAddress: Guid(9c45367740b7b5a4dbdc768f00f8d53c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/Golf_ball_HighPOly.prefab using Guid(9c45367740b7b5a4dbdc768f00f8d53c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ecb6d010d7162ea8d797093ca22011e3') in 0.0073095 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a9838e14e4b68fea3c8d203d9b0a1bd DependenciesID=5049f0f6898997b00e93d43fa879269e StaticDependenciesID=ab2023bd2f97bd76e78ecb64e620c46c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Box.prefab
+  importAddress: Guid(f1d41820724794126bb56e22191a52a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Box.prefab using Guid(f1d41820724794126bb56e22191a52a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '99455034903aefc75840df3ced83ad02') in 0.002820625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71f67076e846b043cb0ab3e1a51ea210 DependenciesID=809f244d6f9a24552a34c4be2bef41fd StaticDependenciesID=85a0f09c3d84eb81e86dd8a37edcb844 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/NavierStokes.unity
+  importAddress: Guid(cca8826734a2f4512aab6350c115b960) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/NavierStokes.unity using Guid(cca8826734a2f4512aab6350c115b960) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '94adb6864bc0b037a7cfdf7eb5cb90d3') in 0.002247458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8b4faa171ef8b8f0a4de2b220fc3725 DependenciesID=65327654c5dba11fe90ee4c32c16fbbd StaticDependenciesID=41d3fb3bf4d2860c0a90e2b508133381 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Gerstner.unity
+  importAddress: Guid(b614600fa9fed49cf95c0dd8ed25e55b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Gerstner.unity using Guid(b614600fa9fed49cf95c0dd8ed25e55b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ae87b89edf45d4e220963c0c1c35bd5') in 0.002410334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6cc8aab8479fa466db6779bdcc993e7 DependenciesID=60531fa85cd0ae837ead1caa5133aad3 StaticDependenciesID=48506cb03ca710057e818182cddc28fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_BaseColor.png
+  importAddress: Guid(0306b36dd6d8c0e409adea2148b454a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_BaseColor.png using Guid(0306b36dd6d8c0e409adea2148b454a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cfe6349e0312caf2e3684f94b990c6c1') in 0.003945959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e49a0fcddfd0afa6a5a2ae5cea1e8bf DependenciesID=73f92c921f14aa04d7f2fd2a544969ef StaticDependenciesID=0a7c234697d6c557d2b6d88230307964 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_Roughness.png
+  importAddress: Guid(f26c22a2a6a61aa4ca8e887dfbbf8641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_Roughness.png using Guid(f26c22a2a6a61aa4ca8e887dfbbf8641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e9702db6abd2f9c6729c5fbfd313026e') in 0.017097083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72372d9a9869509ef40044989bbf1490 DependenciesID=9246a0b5531e5e454a05d730dbea134e StaticDependenciesID=e825b8febb7daffd145914d3ef77ab02 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_Normal.png
+  importAddress: Guid(c2df6b0704ca4044fad9730eb94ca5a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_Normal.png using Guid(c2df6b0704ca4044fad9730eb94ca5a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b32efb879996c37b4d569c3ef8f59bd7') in 0.004313875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81d7f35de028799e9bfd149f95fc9e7d DependenciesID=49d67f52d59522521e1cec6a43146495 StaticDependenciesID=c780080fb9f743aa2d3cd542e7cc6cb3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_Normal.png
+  importAddress: Guid(3d3985d8ad8ae0546a77dd516f6913cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_Normal.png using Guid(3d3985d8ad8ae0546a77dd516f6913cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1702abfdf0a6a28d09665c8ce2f93e81') in 0.005730375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab6e1809536f98f4d90a0e75e98d6224 DependenciesID=f34fbf2ff4a4d90c5dcf94514d61c2db StaticDependenciesID=15e6f4e635184aced135da690c558e90 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_Height.png
+  importAddress: Guid(9a69c44bf5953a44290b2d501ee8e5e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_Height.png using Guid(9a69c44bf5953a44290b2d501ee8e5e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '62e08ffca31e5cce80d39c721a892aaf') in 0.003467125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e3cc0878938b9af7457f151d24d300d DependenciesID=a39c46249faa54d2536efef01b11ca48 StaticDependenciesID=029a93c95f500e0da278b69ae9d5ac27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/SoccerBall_textures/Ball_Normals.png
+  importAddress: Guid(401e23d7e293f1f41a5eef80d7a0b0d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/SoccerBall_textures/Ball_Normals.png using Guid(401e23d7e293f1f41a5eef80d7a0b0d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f5e2da2a403b23c9484126226316867') in 0.003926708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f9d50cc81b1248dea0843426da18095 DependenciesID=4997bf93e3857392cfea02a8c26122ac StaticDependenciesID=968bbf355dcccfb9728078babf3ed80f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_Roughness.png
+  importAddress: Guid(21572343d613ab74183bce5551e40d34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_Roughness.png using Guid(21572343d613ab74183bce5551e40d34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '136015ef4d4cddbdfa1eed93b0736c2a') in 0.004146625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7bd7552e2dbf7319672c1ae60b6b4cb DependenciesID=943a426847e71094a0b595496a465fb5 StaticDependenciesID=76c4bc845c487778e41f01850c635cd7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_Normal.png
+  importAddress: Guid(955d8e99c2ff66946a474eba746cce65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_Normal.png using Guid(955d8e99c2ff66946a474eba746cce65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4802387b145b23ed39716224a8d9af45') in 0.00443725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d7c9262d17437668db5ba1dc4b8ee4e DependenciesID=6f9ef5f03e2741fff28f35b719ee0e43 StaticDependenciesID=b4700035ac27e6664e7967da559779db 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_lambert3_Metalness.png
+  importAddress: Guid(28cc78882f8eec34eb8ac466e9ecb846) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_lambert3_Metalness.png using Guid(28cc78882f8eec34eb8ac466e9ecb846) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd3869f27dcca49d7e8d52e8dad81723a') in 0.0038085 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4eb694d222b741798532193761d96750 DependenciesID=e796fd5c6109ab3c8a83b095b17a6d05 StaticDependenciesID=5690fb4b4efb9bd4f4131cbf8951acb0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Football.prefab
+  importAddress: Guid(a8b1655a90145094bbbfdb3ddd350367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Football.prefab using Guid(a8b1655a90145094bbbfdb3ddd350367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8bb5f4fc97a7696ea3c567aceb2a44d6') in 0.003210292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcf18683b993bc44dd7be78dd94c7e48 DependenciesID=dee5e664d815875d42a25a4288c333f7 StaticDependenciesID=39befe7d3751889608d4b396920270f5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_Height.png
+  importAddress: Guid(f61ea830343684642ab2fc116fa79582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_Height.png using Guid(f61ea830343684642ab2fc116fa79582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6fb119edddfdfe2379e81a528d386629') in 0.003798417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e525ae4a04cf20249c770b67c9a06041 DependenciesID=cb46882636051515e59f42f194df9f31 StaticDependenciesID=0b1c3f9156731515a4b5d5ae74c86dbe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_12_n.tga
+  importAddress: Guid(d0bb528147a01ae42949699bf4616b6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_12_n.tga using Guid(d0bb528147a01ae42949699bf4616b6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e2c3acf41b5c077d5c03674bbce47c63') in 0.003525916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c59cdbec6bd26f4682bfa58f3ab55ab DependenciesID=1f428378668115500e632709c99c6526 StaticDependenciesID=9f7af6c84733d5ff7c23eeb39fb7553b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_Normal.png
+  importAddress: Guid(ef0c884cbea76a54ca84a307f1cd3f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_Normal.png using Guid(ef0c884cbea76a54ca84a307f1cd3f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '33565a896fabd3da9b343bb1248b9842') in 0.004104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02a9d9eeb92640814e02d6da38f82274 DependenciesID=4ce05c20b094253610e6f74a3bff8fea StaticDependenciesID=78563b8de4c63817fedd4028940832be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_Metallic.png
+  importAddress: Guid(f84ac32066f3d014586338c4af4c4952) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_Metallic.png using Guid(f84ac32066f3d014586338c4af4c4952) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'be25851deac3effad158b8efccd22822') in 0.003584167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b2137acf1645e46b7e3c0cb2c9b3d38 DependenciesID=84d1158fd1ce9f0e3a774f599829893c StaticDependenciesID=8d991fbd7918f1e49e33e5dcea00b667 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_Normal.png
+  importAddress: Guid(3c974fd2570336842bee70539e75823a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_Normal.png using Guid(3c974fd2570336842bee70539e75823a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '388f821419d9ab1a6761b316e803b44f') in 0.005431334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6fef092bfe08256396c478552880e814 DependenciesID=d406bccf9acb1a841660e20e5d53646d StaticDependenciesID=4f726e27d9fab368133f27a1079059b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_BaseColor.png
+  importAddress: Guid(6ee21135272014a4cafa2010e016d469) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_BaseColor.png using Guid(6ee21135272014a4cafa2010e016d469) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71e880378139d5e0c6587a3929312478') in 0.003124917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=deea0f7019522728baf007b61fa74c30 DependenciesID=d38b2256b592a41ea74209b76f579136 StaticDependenciesID=a6aa50897bc3dd3f68610a6a8f31dfd3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_Metallic.png
+  importAddress: Guid(bd0b9c807d8ee8b4891f6d8406c7d20a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_Metallic.png using Guid(bd0b9c807d8ee8b4891f6d8406c7d20a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2082e7653570e8ddf77f5658bb021b1b') in 0.003856625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20df5cae00c764c17a9d9c2064fbcfac DependenciesID=792ff77bc84bad16a1127c269e232c1a StaticDependenciesID=1c56a347eeb4ff9ea6740c5d634840e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/SoccerBall_textures/Ball_Base_Color.png
+  importAddress: Guid(615e68c3553cfda4db3ce8c72f6bafcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/SoccerBall_textures/Ball_Base_Color.png using Guid(615e68c3553cfda4db3ce8c72f6bafcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '720ffe6bd05cb1d31537582d0e31d9d4') in 0.003388 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba4a2e6504d02d54cc58531cc079b487 DependenciesID=5494ffdced0fd073bbcfcaa12417ae6f StaticDependenciesID=87a5527049645c876b2469f287abd75c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_lambert3_Normal.png
+  importAddress: Guid(4aa103754eb7a2d4db46d652b65a2623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_lambert3_Normal.png using Guid(4aa103754eb7a2d4db46d652b65a2623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '309f036e965fabdb6630080f4a534976') in 0.003402041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5397336e94297e28a16eb61cb6e49ea DependenciesID=83e85483c8ad0838fed0a0bc3179c994 StaticDependenciesID=7e8ca26837ed0a77ea38026180073393 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_Roughness.png
+  importAddress: Guid(ca7a9715d6f3f4044b30fcfe65036fdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_Roughness.png using Guid(ca7a9715d6f3f4044b30fcfe65036fdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '10d894a18b0d3b0074dc4809dadf9b16') in 0.003789875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a4cbb61d38b68afb2bcf7659dced563 DependenciesID=8361f779cf949c6dd39178b0c1605fd9 StaticDependenciesID=9ec9fff5eb8f326a81a0920f593ca7c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_Metallic.png
+  importAddress: Guid(7d1f7ac5ea2bfd842bfff17c5e8f23a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_Metallic.png using Guid(7d1f7ac5ea2bfd842bfff17c5e8f23a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cd837d694dc558123fcf198ab53ee1cd') in 0.003718834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00d4521f375edd7cf493dd685fa75229 DependenciesID=33c134b78bb0cb6979150237f22e5630 StaticDependenciesID=8e657b673c5070d8f47dbabd8b579804 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Basketball.fbx
+  importAddress: Guid(2b3788a0f64f23449a9c118bcd1db04d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Basketball.fbx using Guid(2b3788a0f64f23449a9c118bcd1db04d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2758fd41a931c9a45ac1a0446e5272bb') in 0.004483 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02d93c2e138f99472a691cdb57502e6e DependenciesID=41018099eb62c571152c4a6c2661e72e StaticDependenciesID=3f2ba5f346a187180e9ed27f6ab9ccfb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_11_s.tga
+  importAddress: Guid(8a68e12330d2a714b8355aaa56d54d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_11_s.tga using Guid(8a68e12330d2a714b8355aaa56d54d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '94a4f12d89dcbcca9e4376a621fa0545') in 0.003285291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=226bb782860d03dd3e61b796f57a11a7 DependenciesID=a99bbc7390b2172d0b37e1ea95aa4a79 StaticDependenciesID=56dfe7ee99b62fc7d42c9a08a5ba6e93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_Metalness.png
+  importAddress: Guid(cf4075c13d6a2e2499bdae86906c4e6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_Metalness.png using Guid(cf4075c13d6a2e2499bdae86906c4e6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd5e7a911b8de895c64d81046058d5b8') in 0.003756167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3d98b89420f41a883bf1571e7cc6f18 DependenciesID=45e23b5d81e288d72753f4fcada970bb StaticDependenciesID=3c9d4e21ffb24ee1ad53097d039b8160 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Saritasa/Scenes/Demo/LightingData.asset
+  importAddress: Guid(54df1eb4738aee048a43d33fc7a37e96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/LightingData.asset using Guid(54df1eb4738aee048a43d33fc7a37e96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e160dfb2acd811676be059146fd0a9b') in 0.00203 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f5abd6c4329fb95e703fc5cea449741 DependenciesID=4a609fb1df535cb57b452a92825ab093 StaticDependenciesID=72368f9e23b5c6f4ea442e647e535af5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Saritasa/Scenes/Demo/ReflectionProbe-0.exr
+  importAddress: Guid(77323e84c9b249f4ca01c9c9e5dec2e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/ReflectionProbe-0.exr using Guid(77323e84c9b249f4ca01c9c9e5dec2e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '540ecb86ccad2c60738e9d2cdf8ddb60') in 0.002765917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f7d1abae3d84b60b7027d9dba269e39 DependenciesID=2d9e14c52763d7d3e3ba979f052ba069 StaticDependenciesID=caf71aabda558c278e201eb3067ecebf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_light.exr
+  importAddress: Guid(743bc10f958c6b34ca8e7d2cc98f313a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_light.exr using Guid(743bc10f958c6b34ca8e7d2cc98f313a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '540eb4a983af1267151ba121fde03735') in 0.003823625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b70c5147be2284fa7df663ba4137486 DependenciesID=14d39e5b385574235d5defb57d8e19e7 StaticDependenciesID=e7d304e3f880ae482dcb7c7c0cb7a4d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/ReflectionProbe-0.exr
+  importAddress: Guid(62bbfa62a86534d4ea8cae27a119f1e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/ReflectionProbe-0.exr using Guid(62bbfa62a86534d4ea8cae27a119f1e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '203d772fdd73821b2831e745763a1702') in 0.002784666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64a03011f021efb48c3a6997b51018be DependenciesID=d06fd723b7d2441153f002ff0dfe580b StaticDependenciesID=e74029ddd7bf8389855bd122fb918c4b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_shadowmask.png
+  importAddress: Guid(43a9f73ee3d431349bdb44bcc8378376) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_shadowmask.png using Guid(43a9f73ee3d431349bdb44bcc8378376) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '61cead8bc4b1b153dc05ce6cbe054815') in 0.003743959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c47821880e83ebe5d048fc304fe5b730 DependenciesID=45925a3564fa7b88d05ef5e0cd4a867e StaticDependenciesID=2322b8b4b65efcc9a7213f4b0164c3f1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Saritasa/Scenes/Demo/ReflectionProbe-1.exr
+  importAddress: Guid(ee3fe4c0717c72148a8a40db733686d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/ReflectionProbe-1.exr using Guid(ee3fe4c0717c72148a8a40db733686d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0768b87c5c83da2a6108cfe90e5a935b') in 0.00270975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3dec9721c31ad3479468e0b40e9e383 DependenciesID=3bc85c60f298e4854bf3f829bb089fab StaticDependenciesID=8de1f6ba790bf86348cae4347687161c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_Normal.png
+  importAddress: Guid(60d6de4a9c99b4b40aaca065839c588f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_Normal.png using Guid(60d6de4a9c99b4b40aaca065839c588f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc43d4348fc3e42ccb687b51dbf8e21d') in 0.004558166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab9db07fd59780e00b7d5b070409213d DependenciesID=f66d4bf1e3b62034e1a5b88e789c0ece StaticDependenciesID=fe18ae3201808d65130f165ecde0ed85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Saritasa/Scenes/Demo/Post Processing.asset
+  importAddress: Guid(84351e6e543861244a1aaa801f19dc70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/Post Processing.asset using Guid(84351e6e543861244a1aaa801f19dc70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a7b6f2ccb6d9529296ee3e2dda6e9318') in 0.001496667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f98856a1bf347790ac9a76da8497615e DependenciesID=18af3aee718b299f48e978a6f911c55f StaticDependenciesID=93720b93e09d5b445ece167d0bd7c8c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Soccer.fbx
+  importAddress: Guid(c19c4d581da21544d8650aa084ac1bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Soccer.fbx using Guid(c19c4d581da21544d8650aa084ac1bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed80af0dba9af6e3922aa1383961c414') in 0.003603333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2c70ae09cbe07fa269ea89547d3f0f3 DependenciesID=5082679e08948acd2598cc8350dda4c9 StaticDependenciesID=49b332a3b0ad3f0a0c3c4971338b137e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/Lightmap-0_comp_light.exr
+  importAddress: Guid(23b45e9506a0f9d42a3d6f7ee2f740c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/Lightmap-0_comp_light.exr using Guid(23b45e9506a0f9d42a3d6f7ee2f740c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6d68ccb10661c9894b35b0545e08486e') in 0.004060084 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=464b6f98cadd88153a625af7b070a3fe DependenciesID=d848121fece15a354ecdefbb5eeb02cf StaticDependenciesID=1ae65d0fb26248302eb689c8b084081d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/LightingData.asset
+  importAddress: Guid(dc5ab5107ce957b47b33e428451e2175) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/LightingData.asset using Guid(dc5ab5107ce957b47b33e428451e2175) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae15fbf72bf0accc5f6d0f79acdf817e') in 0.007962 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81afe45c55aff86bc28978f52ac8db6c DependenciesID=8d13fc07873c6b21d3d75bb71e711e89 StaticDependenciesID=0a94cc190b75f82cedc0ef7b2aa880ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Volleyball.prefab
+  importAddress: Guid(3384463bb3a16c049bd57c0306467a4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Volleyball.prefab using Guid(3384463bb3a16c049bd57c0306467a4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1b1103a93285aacd8d3b21d302dabc8c') in 0.003215459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=136eb53d18c7d14b40f502c98daf9828 DependenciesID=373592a6f20cc7922bc745b23eb259aa StaticDependenciesID=edb257a62d924662cdc1a5ea9e2f25b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Volleyball.fbx
+  importAddress: Guid(eaf91f38db66fc6439ff7704ed985e6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Volleyball.fbx using Guid(eaf91f38db66fc6439ff7704ed985e6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cde1dae942bdf42e8f285000549854d2') in 0.004783917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a499acb85fd345fde1f9d434227ff6af DependenciesID=05da287949bfe6a871e916fd3a85063e StaticDependenciesID=07002f40aae46505ed1eddd61ef80d77 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_Roughness.png
+  importAddress: Guid(1c488ec7262647f408d5fce134611cba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_Roughness.png using Guid(1c488ec7262647f408d5fce134611cba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f3669688cac3d8001e511dc136c0e2f') in 0.003908916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7736ff6119c2c68d70db754db447c058 DependenciesID=1e812a07db22dd967a5fbd33da9f8d8c StaticDependenciesID=f6209b8f0df667c0da5a6ee8e468284a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_Metalness.png
+  importAddress: Guid(f769369525f6a8d4fb501549e542e7c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_Metalness.png using Guid(f769369525f6a8d4fb501549e542e7c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '789e909346c6e73b6c2535f3cf40cb51') in 0.0031665 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b555fd7d5a713246ab96bc5933b6bffd DependenciesID=cfc57c4b3cb8cd948ca4f8a5d990a94c StaticDependenciesID=2d185a9e7a3070dc34045909fb8c7dea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Tennis.prefab
+  importAddress: Guid(db6cb79803d99de41ae15f15a875d281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Tennis.prefab using Guid(db6cb79803d99de41ae15f15a875d281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0335234ca9d3ea3be6d09bf0a6f053bd') in 0.003226833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97e0f0cb3d4d7ab1cc6ed714f95676b2 DependenciesID=4e0c60e2b0abaadf7eec0ee4c6958964 StaticDependenciesID=e19b6f1e2fe866f9b1f7ab5c26b7d260 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_BaseColor.png
+  importAddress: Guid(8cfc58404f4e5e24db9882a5e06242a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_BaseColor.png using Guid(8cfc58404f4e5e24db9882a5e06242a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'baf657618ff078d01f48bba0a5c5ddd5') in 0.005193959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f92cc94016624e7eec811bb8f5166f93 DependenciesID=ab4800dc4b1fef36e8d0797a031badc0 StaticDependenciesID=8d2d360004b23aa7575b60274d163c80 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Tennis.fbx
+  importAddress: Guid(3405ec22bef4339439b628ee6e6bdb36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Tennis.fbx using Guid(3405ec22bef4339439b628ee6e6bdb36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7596f6cad536e5b6eb7e235abb6e2619') in 0.003178292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ad1657af349e9b9535d1814ad098778 DependenciesID=66d3f1f9cded2eae32d73b98a33243e0 StaticDependenciesID=f37c3c57c40001af24e403d1f864ad24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_Roughness.png
+  importAddress: Guid(c63c51cb7085da94093eb619d578f229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_Roughness.png using Guid(c63c51cb7085da94093eb619d578f229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aae266862bdeec7721f09bca6b02f00a') in 0.004494416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc507f4a910f70f5bbf13d3a83539bb8 DependenciesID=31be4b534d199da4d39ae74b615649ed StaticDependenciesID=c6c6e0901986b2aed53b2208f2d02e5c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_12_s.tga
+  importAddress: Guid(a12500683977fef45b7e723d77c94fb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_12_s.tga using Guid(a12500683977fef45b7e723d77c94fb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4526dd0bea5521aeea7e1ff670142e8c') in 0.003448083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88f5f692298fcbaf7d04254f70709d21 DependenciesID=b31f520c39c29c51facda6f04bbb36b4 StaticDependenciesID=583c6256a2dce3a5dc98b03d637676a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/Lightmap-0_comp_dir.png
+  importAddress: Guid(676925595c357a04d8fabf7433210257) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/Lightmap-0_comp_dir.png using Guid(676925595c357a04d8fabf7433210257) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a17a9193c948dd1c1d6db5311483f53e') in 0.003286875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=977300663b30059c5594bb0479c0ecad DependenciesID=335d2a19103c3957dc1d99f1630961d0 StaticDependenciesID=272922104f2cff2a4ddd3c0f9518de7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Baseball.fbx
+  importAddress: Guid(58221b671a0c3af4c86677e9fb49b604) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Baseball.fbx using Guid(58221b671a0c3af4c86677e9fb49b604) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd35ed8d70f5a4ccadc77edfbad8635d3') in 0.003409667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f1a900e65e29bc2f31392971dc45c323 DependenciesID=78cb074be64cb8502ccc72d81260e709 StaticDependenciesID=99fff07e3384fc2df6747e8fe0fb9c29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Cricket_Ball_textures/ball.png
+  importAddress: Guid(d282a5f340d1f0e4e9612b884dc2ffa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Cricket_Ball_textures/ball.png using Guid(d282a5f340d1f0e4e9612b884dc2ffa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b56f52f680d7e0413e102ddbf1199350') in 0.002902083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ef35ef1c9d4ed9e5d54c0c286da448e DependenciesID=4dbe7e9466c22aa025ec4ec7c239ac3d StaticDependenciesID=421db51b395e1cc2fa4fd437a79c3b6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Basketball.prefab
+  importAddress: Guid(052f0d9a551166b458c44593c6566808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Basketball.prefab using Guid(052f0d9a551166b458c44593c6566808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '78e0ff3c0764bf6ec512c663f3ff2971') in 0.002804417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2547997bc859d9cfc6fe36b7eee667a3 DependenciesID=b8e587849ec3921059c762b4e853096f StaticDependenciesID=2fa5d5c4db1c7531194c31e825133735 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Saritasa/Scenes/Demo/Lighting Settings.lighting
+  importAddress: Guid(402dca7b8f5c7814d9984c21488946b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/Lighting Settings.lighting using Guid(402dca7b8f5c7814d9984c21488946b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '451f291e5ae005b292c09aaf6bc31b94') in 0.002146125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9bd3a62d7b1b432e02adcf96c1463bf2 DependenciesID=f2273cd2feef4170b84f6fdc4ab03eb1 StaticDependenciesID=d2d2321d1e335063256ef5c7ce6cf694 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_Roughness.png
+  importAddress: Guid(9a10d32f2c6265145b86f5c56b635e22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_Roughness.png using Guid(9a10d32f2c6265145b86f5c56b635e22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3d7efd0243947f075f3587e5eb178bcf') in 0.004811458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f5940c78190e5a51bf4b896e0d460bb DependenciesID=c79b10058a864e93f4042f1a1a9fa1ec StaticDependenciesID=46afe492ed00e4f768211c761b36db15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_Metallic.png
+  importAddress: Guid(d70741d65c8e73a469cf50f2df7e7e0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_Metallic.png using Guid(d70741d65c8e73a469cf50f2df7e7e0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ea448937c96bff88e56559603a04d13') in 0.004039375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e04b1227072b2b497d2f2c995b07c9bb DependenciesID=adb3a8ec5c1b7659822a68cabaead795 StaticDependenciesID=c8c24b2533c35f7c58e578fc75687c22 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_Normal.png
+  importAddress: Guid(4784f29972dedc24f93a2158279b1f2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_Normal.png using Guid(4784f29972dedc24f93a2158279b1f2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e29d04a86df1560e69375c78319b4a1') in 0.004452667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c8edf9fbf0d776702030d4aa062ef7a DependenciesID=5e446ba4b66a726c1ff272ee53a01ba9 StaticDependenciesID=7d1dd4267f652ad738e32516f999d209 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball.mat
+  importAddress: Guid(be31224625b60e548947d91b1b12444f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball.mat using Guid(be31224625b60e548947d91b1b12444f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd735fb6605bee4d44a9f6af0e48d792a') in 0.01717775 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e89959fd6c3a229f19e97d233a6ded92 DependenciesID=3b7435e309e0628f171c55d3234abf27 StaticDependenciesID=2e4c0b1776a74c5af049962558453d06 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Basketball_A.png
+  importAddress: Guid(2d5e98c4e5eea41428f96ce0c6b88bfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Basketball_A.png using Guid(2d5e98c4e5eea41428f96ce0c6b88bfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b59d0b8b77b6c94f2ddfa53f2181f02a') in 0.003763125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff6b95c46059524ffe75641b29499a4c DependenciesID=df79e864fa7ab8a46da0875488886bbc StaticDependenciesID=ecae68bc460b424fc2d923170683d7b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_opacity.png
+  importAddress: Guid(8c255ff2bff006c418d1fba63f54685d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_opacity.png using Guid(8c255ff2bff006c418d1fba63f54685d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '368817bbc2252c0b2196ec7e9d227c77') in 0.003779167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01f2e05230068a0c0b48fb21e9578068 DependenciesID=3b52ef9722bcc10f263561f07ab23bac StaticDependenciesID=58f86c91e896c5a6f89b9ae6a92f831b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Football.mat
+  importAddress: Guid(7be776598c3314c4d9339f5e1519e32a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Football.mat using Guid(7be776598c3314c4d9339f5e1519e32a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3c87c8e2445357915371662da13ccb55') in 0.001541792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6fa5c9d8fcf60358c474334c51244e07 DependenciesID=64210d2029f9b058464166aa430f24e7 StaticDependenciesID=d49c710df21ed1eabc933659d398611a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Golf_N.png
+  importAddress: Guid(7287fabc732894948b727d51c82ce779) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Golf_N.png using Guid(7287fabc732894948b727d51c82ce779) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a8f36f8683aa7be60c455f1aa3d6e80a') in 0.004520167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8c392182d010bc9f9f1a63964b846e2 DependenciesID=c76b5f24698cc9a5b4d26eaa1c3365d1 StaticDependenciesID=d846689904718a778e0878d8c403663a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Basketball.mat
+  importAddress: Guid(13ddf146097b242088081e24a1736370) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Basketball.mat using Guid(13ddf146097b242088081e24a1736370) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b9962341bfe526ebd7a08236a1277c91') in 0.002750542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0dfa85aed21515acb985c15a9c3dfb20 DependenciesID=03395f5bf297461daca28bb77a388cec StaticDependenciesID=969ddc046456ec470a3414d3f79d13a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Tennis.mat
+  importAddress: Guid(46cd282e7ca7bad41909148e70f09fb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Tennis.mat using Guid(46cd282e7ca7bad41909148e70f09fb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd16ac4accef31dc459e3002b7a7e5fdd') in 0.001645541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8fa3333223e0f23f9d129ab40a960abf DependenciesID=c8d97fa56b843a49db3d91de7928098c StaticDependenciesID=bda8ef154b0e348ba955d700f5cf28c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_Height.png
+  importAddress: Guid(de670b9071bf3414a9ffb9636b3e101a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_Height.png using Guid(de670b9071bf3414a9ffb9636b3e101a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '272fd4d6f63f89677207770ab5c1f5be') in 0.003468916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b196aa00d67679551901dc0c8895100e DependenciesID=db2fa1d60ea7dbc402e3f940956509fd StaticDependenciesID=50cec56d6fb3afb678c505fe362e7d92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_06_n.tga
+  importAddress: Guid(5183b7ef5fa2ba144b0776eb38d8a9ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_06_n.tga using Guid(5183b7ef5fa2ba144b0776eb38d8a9ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cb70628b2f6e639e1ec22b157d969d81') in 0.003682917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad6bd5ae4c2cb89f04fae6c9987108ea DependenciesID=2eae140576e286c8aa60ca27734e98fc StaticDependenciesID=bb3a04f5570eb32c4ae4d28bbf6ce02a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_BaseColor.png
+  importAddress: Guid(6546b48f0569e18468c6ca3e049a224e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_BaseColor.png using Guid(6546b48f0569e18468c6ca3e049a224e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '930ee6ec4d3add622f0e927c4d70e3d2') in 0.0031785 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c25ffcf60c48d7e00528b0a5ab05f528 DependenciesID=58120037796b5a65b6369bcd752f910c StaticDependenciesID=68572196930fe9281a127017f9dd6d85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_BaseColor.png
+  importAddress: Guid(898f770c7a239594b88cadfb9b6d4560) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Cricket_Battextures/bat_Pro_BatSG_BaseColor.png using Guid(898f770c7a239594b88cadfb9b6d4560) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e0aa4f427f15a213c0a298f7840dab65') in 0.003755875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=860965fe200201167c29df1d744c9639 DependenciesID=531216b5b03ec6173a772ea332987e6f StaticDependenciesID=0df598b9a6d4b5256ca9c35cf9010b2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_lambert3_Height.png
+  importAddress: Guid(fd91857394a6b1d46bfc30375794507b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_lambert3_Height.png using Guid(fd91857394a6b1d46bfc30375794507b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '83397fe02dc63e9226d3b057309f710e') in 0.003062542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e051bf3b0081bafb481a228aefc4069d DependenciesID=94c748e8ac63bee46ae8f4157b179095 StaticDependenciesID=da7904a0e4a9ca240251a8fbeade73c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/basketBall_textures/Ball_Normal_OpenGL.png
+  importAddress: Guid(584c737348c9bf5449532503f7416acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/basketBall_textures/Ball_Normal_OpenGL.png using Guid(584c737348c9bf5449532503f7416acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fcf73e17711a40d0d0d73aea8bee4f90') in 0.003773375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46bfe4450097b95582d9d9c55f2ff822 DependenciesID=84fba78d20063ac342277625d1fc961a StaticDependenciesID=99a3cba0148258696c8295965bd1b7e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stage_Metallic.png
+  importAddress: Guid(e3ed8d76030a34b4996560c17e1ca739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stage_Metallic.png using Guid(e3ed8d76030a34b4996560c17e1ca739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cf1b526c5edaf0e447b65c22e4554f4b') in 0.003679625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b542516a4fabd7475fe35e50eb7e5c2d DependenciesID=cf3418dd70411d08c54680f728c77b62 StaticDependenciesID=e4c94ccaa866611e27b40bcadb9f783a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_n.tga
+  importAddress: Guid(bfae690f782f49448bc585d11ff2f3ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_n.tga using Guid(bfae690f782f49448bc585d11ff2f3ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cf1099f3ba0b901ac25811c1170f656c') in 0.003313916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dece4580434617c3136da3d791b6a792 DependenciesID=2dcea91d854369749342d036a0abf7e2 StaticDependenciesID=dcac67dd71056812c0b3248f6877bba0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Golf.prefab
+  importAddress: Guid(2fbb6c85cd0b18a409dfae33e4319200) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Golf.prefab using Guid(2fbb6c85cd0b18a409dfae33e4319200) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c866a7e74ea6ee63543d022c8ca4cbed') in 0.003726083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e66e025ca9e164b4b2afc5e55af76f2 DependenciesID=ed1918fae40264ec1284e7a7e30565b7 StaticDependenciesID=7623642ede702b38653736a64c716ea2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/basketBall_textures/Ball_Base_Color.png
+  importAddress: Guid(e90cf522e78063a4fb1fdf0f09e75384) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/basketBall_textures/Ball_Base_Color.png using Guid(e90cf522e78063a4fb1fdf0f09e75384) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc6014419b398f83ec0551c3c04a7fbb') in 0.003194792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bea0c2fbfeb5085b779c9d2fa21c3f5 DependenciesID=a118731c0fd403ec4a11a97ade21121e StaticDependenciesID=6e3eee125ad3bea42bc67b2748dae8e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_Height.png
+  importAddress: Guid(7bab1cf97a89a154bad354b401c10ea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_Height.png using Guid(7bab1cf97a89a154bad354b401c10ea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '409eb48f864db1899a3b5b599a737fc9') in 0.003648709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=644802d0beb706392ddd168795b0a0ce DependenciesID=628a9405d1f472fcd9eaf6bb16edf838 StaticDependenciesID=80593c31a866acdc8e806aa1a824b7cc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Football.fbx
+  importAddress: Guid(db2f4a5c0acbc43459e37d37a776413f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Football.fbx using Guid(db2f4a5c0acbc43459e37d37a776413f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '66d4dc2ca595b62114ad86a05b249cec') in 0.003365 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57df996071e1a0079acd9b2b74c64607 DependenciesID=814a897f3e4197aa8036738a9c8e9c9f StaticDependenciesID=0eb78208fd55235879d96e0c9ca26768 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Height.png
+  importAddress: Guid(ef65c313b280a3245b7badb32cdc1c56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Height.png using Guid(ef65c313b280a3245b7badb32cdc1c56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd390e70f17fbbf1c9df6a85748685208') in 0.00383475 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84c575d72781b6d3899cd967204f5380 DependenciesID=7c85100a99b1e2b7086594f0b34d568f StaticDependenciesID=8afc658570a37f3ffbe9725f8c4216d9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Soccer.prefab
+  importAddress: Guid(dc9c860c0461534488018ebede9b5f12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Soccer.prefab using Guid(dc9c860c0461534488018ebede9b5f12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1fb2b2104012b9026b00a6ff51faef51') in 0.003852416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ccefaf906adf5cdbc35379b34ea806c DependenciesID=5391b208dd602fbdb33c22b8e31c47ba StaticDependenciesID=2adb3f119c74dd058efa453abe439036 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_opacity.png
+  importAddress: Guid(d75d121103272ba47bcf901d6aaa4e17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_opacity.png using Guid(d75d121103272ba47bcf901d6aaa4e17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35e7263f2b57b4e35025f8bb63a605d6') in 0.003781708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8b591d7208f2c3c26a5bd5d391be634 DependenciesID=452344fbd92e2737679ea9b694ed76f1 StaticDependenciesID=3438d5214594373de55e2ceecab23c9f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/T_YFSM_10_s.mat
+  importAddress: Guid(b6750e4e61bfd4bbf9752e7050594082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/T_YFSM_10_s.mat using Guid(b6750e4e61bfd4bbf9752e7050594082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '418250761c48d0bdd42e99657377c84f') in 0.002421083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73a0a9b8d5494f77375a14222fb43f2f DependenciesID=80e93946465587213ecef2f98bc5f61f StaticDependenciesID=cf848b4fb7326907ed358b468ba909c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FreeSportsKIt_SA/Prefabs/stumps.prefab
+  importAddress: Guid(4b92fde6207a22c42a75600f759f89c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Prefabs/stumps.prefab using Guid(4b92fde6207a22c42a75600f759f89c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a3d4b08938c169222a58cacc247e8169') in 0.002235125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4569c6b6cdf83584b5a0a258f4976ab DependenciesID=39047d8faa25f3a01e485c5ee9b5d927 StaticDependenciesID=ec7dd270cf545719ce897828ec8327c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Base_Color.png
+  importAddress: Guid(aa701e5be2dbcd24aad4fb9c3ca284da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Base_Color.png using Guid(aa701e5be2dbcd24aad4fb9c3ca284da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd06a9ae59252d24cfdb3f91ff6a4af60') in 0.00362975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8b61748ddc19c1488d461baebc21ebd DependenciesID=b2a4db07263b4d546ba459cab8fd69f6 StaticDependenciesID=1f72429cc885dc883e90c1d7950a1ad4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Baseball.prefab
+  importAddress: Guid(9b087ad3ee72dbd408584ba96bc2cc57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Baseball.prefab using Guid(9b087ad3ee72dbd408584ba96bc2cc57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd7229a13bbf7eedc3fe2aee777f38aca') in 0.002705542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff2a197b9b621233545f5ad2259b513a DependenciesID=d8fd0ed690b82ed900ae2bbc862c71a4 StaticDependenciesID=5466a2ef0bd43692ca1023de78ad496f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_06_d.tga
+  importAddress: Guid(57c3d6d1fd510a644abd02c9594f8cbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_06_d.tga using Guid(57c3d6d1fd510a644abd02c9594f8cbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '842133912abfe9d3caa964ae4decf533') in 0.003026917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=51d7c87d5d836a6c54ce51f3483d42cd DependenciesID=570f4927c826899f48dfc3fff2865e16 StaticDependenciesID=9fe5a2a71a7c2a5276681d5b85111940 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_BaseColor.png
+  importAddress: Guid(f17bc8b00a05eda47b711a1fa1fb170a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_BaseColor.png using Guid(f17bc8b00a05eda47b711a1fa1fb170a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f754d55d14013e0673732eb619a54ed') in 0.003603083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bfc957fb86831e3214dbf662312b2a3 DependenciesID=848910defdbdff4a97b1a49716986304 StaticDependenciesID=d968fc3ae25a34c1b6c55b6b369ba6cc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_BaseColor.png
+  importAddress: Guid(a98ba5cd3ecd5504c9b4220abc0a19b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_bat_textures/blue/tennis_bat2_BaseColor.png using Guid(a98ba5cd3ecd5504c9b4220abc0a19b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e1c2a374d9bab1b25115c3da0a8170e') in 0.004259208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b86dff5ab1ccde6ac199307bc580f68 DependenciesID=45c340dabc7a0eb3de3dc0b9ceff1567 StaticDependenciesID=06577c1feb34839accf5eaec7e789822 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_Height.png
+  importAddress: Guid(93ecb98d753a0c0458603a2e6596b1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/volleyball_textures/fbx_volleyball_aiStandardSurface1_Height.png using Guid(93ecb98d753a0c0458603a2e6596b1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '25c441ac4a2f2057cd91450ea3b32279') in 0.00423625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=766828f4a4fcdfdc3638254136bac843 DependenciesID=1f9e9edbb1fb54b01bc4fe4a2cb90c2e StaticDependenciesID=739220be8952688d80bc454dbb254854 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Ambient_Occlusion.png
+  importAddress: Guid(5e3b47c76d4c55d44be834515b7fe551) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Ambient_Occlusion.png using Guid(5e3b47c76d4c55d44be834515b7fe551) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5cd0283bfc370015bc18e731efbb544') in 0.003515167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a89fd0715b4e945a8b46adbabc1961b7 DependenciesID=53dbdfc4280ff9facc8412cc6e98f773 StaticDependenciesID=ab45ba2aaba296a4ad55e3281ca64208 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/ReflectionProbe-1.exr
+  importAddress: Guid(6aeb3b4b37cbb5f4bb396ab1456530a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/ReflectionProbe-1.exr using Guid(6aeb3b4b37cbb5f4bb396ab1456530a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e95041d7107d8263379e04c1e244d499') in 0.002769333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4bb7edb3fda43389bcc337fbd80c4465 DependenciesID=65110f356f5a8662434c055a2d325c23 StaticDependenciesID=de42c8a283fbadd1db7c6a8eebe5aa6c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FreeSportsKIt_SA/Models/Cricket_bat.fbx
+  importAddress: Guid(1ebb823dc6902ce44bf3e7df23c471ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Models/Cricket_bat.fbx using Guid(1ebb823dc6902ce44bf3e7df23c471ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e1dcdc6d50c7739f394cc5a28506897d') in 0.003917208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f2852e9e13f56853f4c0f788efafe2f DependenciesID=89386a331be23c60918dc2475eb6a72f StaticDependenciesID=ed344dc25737ef9001ef9d303a978700 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_lambert3_Roughness.png
+  importAddress: Guid(b9c398e35cb47db458d2cdc83accab25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_Ball_textures/balll_lambert3_Roughness.png using Guid(b9c398e35cb47db458d2cdc83accab25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b5bc5e7b5dca5d8bcbc30c6f1e6325cb') in 0.003558417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=720202f123937eafafb0fb243957771c DependenciesID=0fc082ce3ede714a26adbfcb7bebafca StaticDependenciesID=2a6da66d09b1960f3d4586e64563077e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_BaseColor.png
+  importAddress: Guid(35509376f9e323a4498e896a8b5beb3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_BaseColor.png using Guid(35509376f9e323a4498e896a8b5beb3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '818c7e065c8a1886d4cef29d44b5daf1') in 0.00381725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dbc58a45c97951e8fa386ba313b9359b DependenciesID=ebe4cb2500d74aeb37af54057f84aa5a StaticDependenciesID=37e4f0efff6c200ce29f27ff068c3030 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_08_s.tga
+  importAddress: Guid(f2eb214b2ddc6174b8d03a28f8ca715c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_08_s.tga using Guid(f2eb214b2ddc6174b8d03a28f8ca715c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '482ea78b84ec1577e573e7b04a057b2a') in 0.003434834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66d274f74f6c5eb4bd46b3049b04e866 DependenciesID=79622dd47e99daaf1298a1e94edbb4f8 StaticDependenciesID=3b4b59592c5ec05427e2f67803a1feb1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Script/NavierStokes/BallMover.cs
+  importAddress: Guid(db114784c66f843f0979690172b7ca40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/NavierStokes/BallMover.cs using Guid(db114784c66f843f0979690172b7ca40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6e1781b210c019c01578d0cad48952e') in 0.001449417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=566516ce9a63a7834aad8a0e725e4c51 DependenciesID=2c9675c41addb31c18965efc521dc17a StaticDependenciesID=6241b9c5ca9c3f9625d4d56c80b94768 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Box.prefab
+  importAddress: Guid(f1d41820724794126bb56e22191a52a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Box.prefab using Guid(f1d41820724794126bb56e22191a52a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6766a4ed4a5ba19c08d92bbf0007f4ec') in 0.019348333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62fc935ef81069c0e5ec9fa6921056d8 DependenciesID=dfd0f80b535705934c14993cc70e1c48 StaticDependenciesID=0c8ade0b0a50573c3492867a2fc21204 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand01.mat
+  importAddress: Guid(fa542ab47cc7bb3418c35926f8cab963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand01.mat using Guid(fa542ab47cc7bb3418c35926f8cab963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8bddc869f3cac56e6692eb30e76f8628') in 0.003614375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69e805a01cf1c7e153ec30eabc2c6282 DependenciesID=7834e1de5d5ec907490fd625cc5f869e StaticDependenciesID=a5947d0c84eb6c4fe4e0f5d0228238ab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FreeSportsKIt_SA/Models/Stage.fbx
+  importAddress: Guid(71697ad4f7c36fe44b634e1874f5d828) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Models/Stage.fbx using Guid(71697ad4f7c36fe44b634e1874f5d828) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd2230c8176a53ec127e32c2066a3093d') in 0.003635458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2cc7bab9fa480bf954fb9e9b98cc9798 DependenciesID=2920a0876dbf2eadd1f19798a0d545b8 StaticDependenciesID=acf59d13d05619c3b3522a73ff875b8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Material/Imported Texter/WaterSurface_single.tif
+  importAddress: Guid(d8d1f66d7b51a45c3987fb49e3b85f17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Imported Texter/WaterSurface_single.tif using Guid(d8d1f66d7b51a45c3987fb49e3b85f17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2f9df50047c0602493db6a48bab795ee') in 0.003175167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0fdda146d2361f602920f7c3c238efec DependenciesID=0d6434439ca74529f47e3b7b81af3124 StaticDependenciesID=ebc2df5fdc972d5692b4a4ee5faa6d43 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_Metalness.png
+  importAddress: Guid(26b1a8e5402f6e249b038abff1bf9459) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_balltextures/tennis_ball2_Metalness.png using Guid(26b1a8e5402f6e249b038abff1bf9459) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd7debcfc7bd5b6ee47c91af2ec454767') in 0.004387167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19311038c64e3db314b01998e4862afa DependenciesID=172002b7239c7e601cf75a41fd78a9dd StaticDependenciesID=ae783ea76056d801b526de70bba80c2c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand02.mat
+  importAddress: Guid(b5ced793883eff9439dfb6d7848aead2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand02.mat using Guid(b5ced793883eff9439dfb6d7848aead2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a6e1485a9c4ea73b5e89a7a1e872c5e') in 0.003435667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a7fb5cd4591fb212f66404af5a2a5ac DependenciesID=3ca0d2de9ec5219bc7d8888c137a6262 StaticDependenciesID=2205d61b1ff26c4cb99d0facdea48b93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  importAddress: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35fdb461f5ee71561e98bd54c6c547d6') in 0.001304792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5419cef446e5076d294656d3e7834e01 DependenciesID=dab32ae9db7aa8f81e28ab6493c80237 StaticDependenciesID=8cb0a1612bbed2eba2dc6cbe056fc305 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FreeSportsKIt_SA/Animations/CameraAnimations.anim
+  importAddress: Guid(1baedf7877d5faf45a7a76e80686974c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Animations/CameraAnimations.anim using Guid(1baedf7877d5faf45a7a76e80686974c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0099e2c72166d27ba0854e300db3a7c9') in 0.00465675 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2ab77679b6e1a9e9f4233785d3c2dfd DependenciesID=f58aaacc58daf97af3115ba8a3ebfad9 StaticDependenciesID=d0854b787ce8dc9fcba5201de0a61d71 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Material/Imported Mesh/Water.fbx
+  importAddress: Guid(dace57e81de374fb89a26784ca354bfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Imported Mesh/Water.fbx using Guid(dace57e81de374fb89a26784ca354bfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b407c790d59112c91401f4d4f00b2a89') in 0.004838292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=229f54d9b3ca9472ebe6b5bfcc415a98 DependenciesID=74eb07101cc7b113ab0ebd952cab74c6 StaticDependenciesID=13173e87c8cd288058d1e21157540b25 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/M_checker.mat
+  importAddress: Guid(8a9332f1959c2324db37f47ae604647b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/M_checker.mat using Guid(8a9332f1959c2324db37f47ae604647b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e02f02c24966092c283255862e835529') in 0.002204542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb6cf190e0cb2674410a9f9aab17cdd9 DependenciesID=34861a24c4ee9808c904bd8ac29b49de StaticDependenciesID=9c74f6a8c07972cfd4967ad0b66586f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_Height.png
+  importAddress: Guid(fc0250a6956c93c4b906cdcc39c0de93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/tennis_net2textures/tennis_net2_Height.png using Guid(fc0250a6956c93c4b906cdcc39c0de93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '50fbdfea79da82b9c6d636406c40335f') in 0.003742083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0629725251220912a9d0ea8be7336a40 DependenciesID=befd0713dce02e8a34330567e9187cc8 StaticDependenciesID=ae0a7ac7cab1b94afb132570809960ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand08.mat
+  importAddress: Guid(90b02265239ffbb42a9f884240dad27a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand08.mat using Guid(90b02265239ffbb42a9f884240dad27a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3df9f38f99a633877d980c9c60eff2c7') in 0.003652291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e248cbb10f8ffdd972d2368b9e92b60 DependenciesID=79a8a1733eb25692b1b87d9631ad4e95 StaticDependenciesID=d967d18f139a13efa2c142a02e0e96c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_01_n.tga
+  importAddress: Guid(0e523dcf884a2ee45ac915ce4d149c67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_01_n.tga using Guid(0e523dcf884a2ee45ac915ce4d149c67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e1160025c14b04515f3d9cf89865f97b') in 0.003100042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=433591bcd013e9d910ab521a15e5e3d0 DependenciesID=11cc50487096f60eaf2b280e001f12a0 StaticDependenciesID=1caada754c46740b520cca73bdff35fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_s.tga
+  importAddress: Guid(4b3075fc987dcf9408769853536a023a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_s.tga using Guid(4b3075fc987dcf9408769853536a023a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bd02a4e5c7af0d857ac1f415d1de89d2') in 0.003508583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3bc15397b821995836aae7a744bff3f DependenciesID=cda4370b62c2001bc8093eb5e36bd8f1 StaticDependenciesID=1e7c3bf7e731a3a5d1bbbcf98beb9342 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_12_d.tga
+  importAddress: Guid(ab4e89361ca556e479cdf640b4aee5be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_12_d.tga using Guid(ab4e89361ca556e479cdf640b4aee5be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1b978bd1674b0c100b364b3e3ca1c861') in 0.004626917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5950b5f2fbe0468d1139299207d9168d DependenciesID=41e4898f571100b7073ff9af748d5c29 StaticDependenciesID=0c254fd5ecc3dd32d2eb6c371371969f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/T_Checker.tga
+  importAddress: Guid(dd067c9d68fb0d947b696022d39f63b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Preview/T_Checker.tga using Guid(dd067c9d68fb0d947b696022d39f63b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c76f690ac986fbc71e74577438ee077f') in 0.002621542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe49fa0b9e938fdac9ac48bec1fd2914 DependenciesID=82547672a7786fcdb2748358edf2ca31 StaticDependenciesID=c3e6b3ab64c71f938cb8b3def6f9f799 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_Height.png
+  importAddress: Guid(ccff98835199ce747bd11d746b5b83c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stumps_textures/stumps_Height.png using Guid(ccff98835199ce747bd11d746b5b83c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7563eb56bb6a3474011797869f316a29') in 0.003833041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f0f77d1898bb845a700fcdfd9f7ac05 DependenciesID=e6889bb11849be7c1372224ec3013442 StaticDependenciesID=7ef4f3b65c93093a6f8c956ac7057986 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/Stage_Base_color.png
+  importAddress: Guid(5da734be9970bb24cb2bd39c90505ecf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/Stage_Base_color.png using Guid(5da734be9970bb24cb2bd39c90505ecf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '617288ac8326fe37b5170066ceec1826') in 0.003522291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6f5c922c272badc587952e424208e93 DependenciesID=809c280342312db27c56b1fac6d8d7c4 StaticDependenciesID=5b9e99661eb1218b9a9651ce375bb20e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  importAddress: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0108ac6b85e8635851d855cdc2aaeb15') in 0.002797166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fac4a1c8210cbbab19d25b1247ad3ff DependenciesID=c855c426c5ec9797f39c92cf81e254a3 StaticDependenciesID=87857bce5b5d2f59bec3089eac1f2769 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  importAddress: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e29bbc5b4bf12afee13f4102cf4c700e') in 0.00361125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9e3875db1248c7829a34359c180500a DependenciesID=95af7024de2042a28521b57d1bb21759 StaticDependenciesID=3d573e0ff48bf7ed421285a4f7e866a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  importAddress: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e9c2449550b5e4540f8ded35de27527b') in 0.002286625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2610da8f9a6b3b839bc9c113b53bd25 DependenciesID=31931decc1c3de68010f5ab98b4b74c9 StaticDependenciesID=479ec06a013f88c318b3be9f7d7efee1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand12.mat
+  importAddress: Guid(f9c1633c55cd61745bf439dcc2869d19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand12.mat using Guid(f9c1633c55cd61745bf439dcc2869d19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b8edf762b301d5b2405e74dd8fbabe76') in 0.003062042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff7b4ea0357b185d2581f8f28e0e3e7f DependenciesID=62cf1d82279a12e924a95e4aee9af234 StaticDependenciesID=e70452c5c20b904f277980986580d775 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand09.mat
+  importAddress: Guid(986453e07e20ec94e89bb72c03fc8974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand09.mat using Guid(986453e07e20ec94e89bb72c03fc8974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c9d4e36cafe4a4dd6d651d531185628b') in 0.004345417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f56989954eb912ac51c66eb95df1b4a1 DependenciesID=e663463b8e5c9c4ce864b3dc8e779d13 StaticDependenciesID=7e714f71564590a5980d37bf0fdd57ea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_Roughness.png
+  importAddress: Guid(9dd66b197db5e304fb75292dfb30f6b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FreeSportsKIt_SA/Textures/GOlf_fairway_Textures/obj_fairway_Roughness.png using Guid(9dd66b197db5e304fb75292dfb30f6b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55058a7523892d2ce4ef05eb3a661ed8') in 0.003519667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23aec1762afb463a3d9d75323120ef67 DependenciesID=7c16690408eb9a76708bb062d05adc34 StaticDependenciesID=1c42e3b75f0f104326b9065eb946db46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x171007000 may have been prematurely finalized
+Thread 0x1793df000 may have been prematurely finalized
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
 Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
@@ -289,34 +1840,110 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.312 seconds
-Domain Reload Profiling: 786ms
-	BeginReloadAssembly (173ms)
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 820ms
+	BeginReloadAssembly (197ms)
 		DisableScriptedObjects (8ms)
-		CreateAndSetChildDomain (43ms)
+		CreateAndSetChildDomain (68ms)
 	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (250ms)
-		LoadAssemblies (217ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (9ms)
-			BuildScriptInfoCaches (75ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (207ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (72ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (312ms)
+	FinalizeReload (327ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6290 unused Assets / (4.9 MB). Loaded Objects now: 7124.
-Memory consumption went from 158.9 MB to 154.0 MB.
-Total: 4.094500 ms (FindLiveObjects: 0.236834 ms CreateObjectMapping: 0.104875 ms MarkObjects: 2.944750 ms  DeleteObjects: 0.807833 ms)
+Unloading 6293 unused Assets / (4.3 MB). Loaded Objects now: 7174.
+Memory consumption went from 176.4 MB to 172.1 MB.
+Total: 4.253917 ms (FindLiveObjects: 0.233959 ms CreateObjectMapping: 0.102834 ms MarkObjects: 3.032916 ms  DeleteObjects: 0.884042 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16fd07000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 891ms
+	BeginReloadAssembly (271ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (223ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (8ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (281ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6290 unused Assets / (4.4 MB). Loaded Objects now: 7177.
+Memory consumption went from 170.6 MB to 166.2 MB.
+Total: 4.044708 ms (FindLiveObjects: 0.234292 ms CreateObjectMapping: 0.104625 ms MarkObjects: 2.906542 ms  DeleteObjects: 0.798958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

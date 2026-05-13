@@ -395,7 +395,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 560262739189558997, guid: df1d8ff4e8f8e42cd98c749e9eded7fc, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560262739189558997, guid: df1d8ff4e8f8e42cd98c749e9eded7fc, type: 3}
+      propertyPath: m_AngularDamping
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 560262739189558997, guid: df1d8ff4e8f8e42cd98c749e9eded7fc, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2629702370156668230, guid: df1d8ff4e8f8e42cd98c749e9eded7fc, type: 3}
       propertyPath: m_Name
@@ -461,6 +469,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2629702370156668230, guid: df1d8ff4e8f8e42cd98c749e9eded7fc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1438795279}
+    - targetCorrespondingSourceObject: {fileID: 2629702370156668230, guid: df1d8ff4e8f8e42cd98c749e9eded7fc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1438795284}
   m_SourcePrefab: {fileID: 100100000, guid: df1d8ff4e8f8e42cd98c749e9eded7fc, type: 3}
 --- !u!4 &1036727582 stripped
 Transform:
@@ -606,7 +617,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438795274}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db114784c66f843f0979690172b7ca40, type: 3}
   m_Name: 
@@ -614,6 +625,19 @@ MonoBehaviour:
   speed: 5
   bobAmplitude: 0.3
   bobFrequency: 1.2
+--- !u!114 &1438795284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438795274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56451eebcf1547d7af2de1ed0e6a0c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReferenceObjectSWE
+  water: {fileID: 214726099}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,9 +1,9 @@
 using UnityEngine;
 public class ReferenceObjectG : MonoBehaviour
 {
-    public GerstnerWater water;
-    private Rigidbody rb;
-    private bool isUnderWater = false; 
+    public Gerstner water;
+        private Rigidbody rb;
+    private bool isUnderWater = false;
 
     void Start() => rb = GetComponent<Rigidbody>();
 
@@ -14,21 +14,13 @@ public class ReferenceObjectG : MonoBehaviour
         float waterHeight = water.GetHeight(transform.position.x, transform.position.z);
         float depth = waterHeight - transform.position.y;
 
-        if (depth > 0f) // Under ytan
+        if (depth > 0f)
         {
-            if (!isUnderWater) 
-            {
-                float splashForce = Mathf.Abs(rb.linearVelocity.y);
-                water.AddRipple(transform.position, splashForce * 0.8f);
-                isUnderWater = true;
-            }
-
-            rb.AddForce(Vector3.up * depth * 15f, ForceMode.Acceleration);
+            rb.AddForce(Vector3.up * depth * 20f, ForceMode.Acceleration);
             rb.linearDamping = 2f;
         }
         else
         {
-            isUnderWater = false;
             rb.linearDamping = 0f;
         }
     }

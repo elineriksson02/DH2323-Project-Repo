@@ -24,8 +24,28 @@ The goal of this project is to explore water simulation, which is considered one
 | Water waves only | ~315 | ~736 |
 | Floating object | ~293 | ~702 |
 
-The results show that the NS-based model achieves higher frame rates due to its simpler per-frame computation, while Gerstner waves produce smoother and more structured large-scale wave patterns. However, the NS model provides better floating object interaction through height field coupling.
-See the [full report](Report/report.pdf) for more details.
+The NS-based model achieves higher frame rates 
+than the Gerstner model, which is somewhat 
+counterintuitive since physics-based methods 
+are generally expected to be more computationally 
+expensive. In this implementation the higher 
+frame rate is due to the simpler per-frame 
+computation of the SWE model compared to 
+Gerstner waves, which evaluate multiple wave 
+contributions per vertex each frame. Gerstner 
+waves produce smoother and more structured 
+large-scale wave patterns, while the NS model 
+provides better floating object interaction 
+through height field coupling. Both models show 
+a slight FPS decrease when the floating object 
+is added, which is expected due to the additional 
+per-frame cost of sampling the water surface 
+height and updating the object position. Both 
+models remain well above real-time requirements 
+throughout.
+
+See the [full report](Report/report.pdf) for 
+more details.
 
 ## Screenshots
 ### Gerstner Waves

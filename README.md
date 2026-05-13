@@ -37,8 +37,10 @@ See the [full report](Report/report.pdf) for more details.
 ### NS-based model with Object
 ![Water Simulation](Video/NavierSimpleObject.gif)
 
-## How to run 
-1. Clone repository
-2. Open in Unity
-3. Load main scene
-4. Press Play
+## Development Log
+- Week 1: Read literature on wave-based and physics-based water simulation methods
+- Week 2: Wrote the literature section; studied how to implement both models
+- Week 3: Started implementing the Gerstner wave model
+- Week 4–5: Continued implementation; added SWE model and floating object interaction
+- Week 6: Analysed results from both implementations, ran FPS measurements
+- Week 7: Finished and polished the report

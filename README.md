@@ -37,7 +37,7 @@ See the [full report](Report/report.pdf) for more details.
 ### NS-based model with Object
 ![Water Simulation](Video/NavierSimpleObject.gif)
 
-#Blog Part 
+# Blog Part 
 
 ## Development Log
 

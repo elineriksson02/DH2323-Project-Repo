@@ -68,7 +68,7 @@ which is a common approach in the literature.
 **Week 4–5:** Added the SWE model and floating 
 object interaction. I originally had a different 
 Navier–Stokes simplification in mind but when I 
-started developing it, it didn't work at all,  
+started developing it, it didn't work at all, 
 it kept blowing up and producing invalid values. 
 After more research I found the Shallow Water 
 Equation model which is more tractable because 
@@ -78,10 +78,16 @@ numerical blow-up, which I solved by implementing
 the CFL condition to calculate a stable timestep 
 and subdividing each frame into substeps. After 
 solving that, the next problem was that the water 
-didn't move at all. After more research I found 
-that a driving source was needed, so I added a 
-continuous wave boundary condition on the grid 
-edges to produce visible wave motion.
+didn't move at all, the simulation was physically 
+correct but completely still, because there was 
+nothing driving it. In real water there is always 
+something causing motion, such as wind, rain or 
+tides, but in Unity there is no such force by 
+default. The solution was to add a continuous 
+sine wave boundary condition on the grid edges 
+to act as an artificial driving source, which 
+finally produced visible wave motion across 
+the surface.
 
 **Week 6:** Analysed results and ran FPS 
 measurements. The evaluation was mainly visual 
@@ -107,7 +113,7 @@ situations.
   simulation, not just the code.
 - The CFL condition and staggered grids are 
   standard tools in computational fluid dynamics 
-  for good reason — without them the simulation 
+  for good reason, without them the simulation 
   simply does not work.
 - Comparing two implementations fairly is harder 
   than it sounds. Small differences in how each 
@@ -123,12 +129,12 @@ situations.
   inside a game engine is much harder than 
   debugging it in isolation. I should have done 
   more research on how to evaluate an 
-  implementation before building it in Unity — 
+  implementation before building it in Unity, 
   this would have saved time that could have been 
   used for user testing or improving the visual 
   output.
 
-- Spend more time on the visual output — adding 
+- Spend more time on the visual output, adding 
   a proper water shader with reflections and 
   transparency would make both simulations look 
   significantly more realistic.
@@ -136,7 +142,7 @@ situations.
 - Implement a more complete floating object 
   system. It would also be interesting to 
   optimise the interaction separately for each 
-  model and then compare the results — this could 
+  model and then compare the results, this could 
   reveal whether the choice of interaction method 
   changes which model performs better in 
   different scenarios.

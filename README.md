@@ -38,9 +38,59 @@ See the [full report](Report/report.pdf) for more details.
 ![Water Simulation](Video/NavierSimpleObject.gif)
 
 ## Development Log
-- Week 1: Read literature on wave-based and physics-based water simulation methods
-- Week 2: Wrote the literature section; studied how to implement both models
-- Week 3: Started implementing the Gerstner wave model
-- Week 4–5: Continued implementation; added SWE model and floating object interaction
-- Week 6: Analysed results from both implementations, ran FPS measurements
-- Week 7: Finished and polished the report
+
+**Week 1:** Read literature on wave-based and 
+physics-based water simulation methods. I wanted 
+to do something with water because I knew it is 
+a big topic in the game and film industry. My 
+personal goal was to better understand why it is 
+actually hard to implement. After some research 
+I focused on two main approaches that kept 
+appearing in the literature.
+
+**Week 2:** Wrote the literature section and 
+studied how to implement both models by reading 
+blogs, reports and watching YouTube videos to 
+see how different people approach the problem. 
+At first I thought I had found a good solution, 
+but later weeks would show I needed a different 
+approach.
+
+**Week 3:** Started implementing the Gerstner 
+wave model. Had some trouble at first getting 
+the waves to move smoothly. Started with one 
+wave and once that worked, added more waves to 
+create more realistic interference patterns, 
+which is a common approach in the literature.
+
+**Week 4–5:** Added the SWE model and floating 
+object interaction. I originally had a different 
+Navier–Stokes simplification in mind but when I 
+started developing it, it didn't work at all — 
+it kept blowing up and producing invalid values. 
+After more research I found the Shallow Water 
+Equation model which is more tractable because 
+it only simulates surface height. But that was 
+still hard to implement. The main challenge was 
+numerical blow-up, which I solved by implementing 
+the CFL condition to calculate a stable timestep 
+and subdividing each frame into substeps. After 
+solving that, the next problem was that the water 
+didn't move at all. After more research I found 
+that a driving source was needed, so I added a 
+continuous wave boundary condition on the grid 
+edges to produce visible wave motion.
+
+**Week 6:** Analysed results and ran FPS 
+measurements. The evaluation was mainly visual 
+and based on my own judgment, which is a 
+limitation — ideally other people would evaluate 
+it too, which is something the proposed perceptual 
+study in the report addresses. It was interesting 
+to think about the results because I kept coming 
+back to the question of where you would actually 
+use each model — and the answer was that neither 
+is strictly better, they just suit different 
+situations.
+
+**Week 7:** Finished and polished the report.

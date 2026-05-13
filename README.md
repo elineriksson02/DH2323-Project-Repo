@@ -123,16 +123,7 @@ situations.
 
 ### What I would do differently
 
-- Start validating the SWE implementation against 
-  known analytical solutions before integrating 
-  it into Unity. Debugging a physics simulation 
-  inside a game engine is much harder than 
-  debugging it in isolation. I should have done 
-  more research on how to evaluate an 
-  implementation before building it in Unity, 
-  this would have saved time that could have been 
-  used for user testing or improving the visual 
-  output.
+- For both models, find a way to validate the implementation before building it in Unity. For example, the SWE model could be tested in isolation in a simple script first, plotting the height values over time to check that waves propagate correctly before integrating into a game engine. For Gerstner waves, comparing the output against known analytical wave shapes would help catch parameter errors early, such as incorrect steepness or phase calculations. Debugging a physics simulation inside Unity is much harder than debugging it in isolation because the engine adds many layers between the code and the visual output. Doing this validation step first would have saved time that could have been used for user testing or improving the visual quality of the simulations.
 
 - Spend more time on the visual output, adding 
   a proper water shader with reflections and 

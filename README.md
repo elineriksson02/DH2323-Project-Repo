@@ -16,7 +16,6 @@ The goal of this project is to explore water simulation, which is considered one
 
 ## Technologies
 - Unity (version 6.4)
-- C#
 
 ## Results
 | Scenario | Gerstner FPS | NS-based FPS |

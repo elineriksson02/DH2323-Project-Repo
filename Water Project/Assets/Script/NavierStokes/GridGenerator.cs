@@ -8,23 +8,22 @@ public class GridGeneratorSWE : MonoBehaviour
     public float gravity = 9.81f;
     public float restDepth = 2.0f;
 
-    // Simulation data
-    private float[] h;  // Water depth at cell centers [j * gridSize + i]
-    private float[] H;  // Terrain height at cell centers (flat = all zeros)
-    private float[] u;  // X-velocity on vertical faces [(gridSize+1) * gridSize]
-    private float[] w;  // Z-velocity on horizontal faces [gridSize * (gridSize+1)]
+    // water simulation values
+    private float[] h;  // Water depth at cell centers 
+    private float[] H;  // Terrain height at cell centers 
+    private float[] u;  // X-velocity on vertical faces 
+    private float[] w;  // Z-velocity on horizontal faces 
 
     private Mesh waterMesh;
-    private Vector3[] vertices; // class-level, shared between GenerateMesh and UpdateMesh
+    private Vector3[] vertices; 
 
-    // Index helpers
     int C(int i, int j) => j * gridSize + i;
     int U(int i, int j) => j * (gridSize + 1) + i;
     int W(int i, int j) => j * gridSize + i;
 
     void Start()
     {
-        // Init simulation arrays
+        // initialize arrays
         h = new float[gridSize * gridSize];
         H = new float[gridSize * gridSize];
         u = new float[(gridSize + 1) * gridSize];
@@ -32,15 +31,15 @@ public class GridGeneratorSWE : MonoBehaviour
 
         for (int i = 0; i < h.Length; i++) h[i] = restDepth;
 
-        // Test disturbance at center
+        // add wave in center
         ApplyDisturbance(gridSize / 2, gridSize / 2, 1.0f);
 
-        GenerateMesh(); // must come after arrays are initialized
+        GenerateMesh(); 
     }
 
     void Update()
     {
-        // CFL-stable substeps
+        // split into smaller steps for stability
         float dt = Time.deltaTime;
         float maxWaveSpeed = Mathf.Sqrt(gravity * restDepth);
         float stableDt = 0.4f * cellSize / maxWaveSpeed;
@@ -55,7 +54,7 @@ public class GridGeneratorSWE : MonoBehaviour
 
     void StepSWE(float dt)
     {
-        // --- Step 1: Velocity update (uses current h) ---
+        // update velocities
         for (int j = 0; j < gridSize; j++)
         {
             for (int i = 1; i < gridSize; i++)
@@ -76,7 +75,7 @@ public class GridGeneratorSWE : MonoBehaviour
             }
         }
 
-        // --- Step 2: Reflective boundaries ---
+        // stop water at edges
         for (int j = 0; j < gridSize; j++)
         {
             u[U(0, j)]        = 0f;
@@ -88,12 +87,12 @@ public class GridGeneratorSWE : MonoBehaviour
             w[W(i, gridSize)] = 0f;
         }
 
-        // --- Step 3: Velocity clamping for stability ---
+        // limit velocity 
         float maxSpeed = 0.5f * cellSize / dt;
         for (int k = 0; k < u.Length; k++) u[k] = Mathf.Clamp(u[k], -maxSpeed, maxSpeed);
         for (int k = 0; k < w.Length; k++) w[k] = Mathf.Clamp(w[k], -maxSpeed, maxSpeed);
 
-        // --- Step 4: Height update (mass conservation, uses updated u,w) ---
+        // update water height
         float[] hNew = new float[h.Length];
         for (int j = 0; j < gridSize; j++)
         {

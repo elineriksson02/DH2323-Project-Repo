@@ -33,7 +33,7 @@ public class ShallowWaterSimulator : MonoBehaviour
     private Mesh waterMesh;
     private Vector3[] vertices;
 
-    // Index helpers
+    // helper functions
     int C(int i, int j) => j * gridSize + i;
     int U(int i, int j) => j * (gridSize + 1) + i;
     int W(int i, int j) => j * gridSize + i;
@@ -45,20 +45,20 @@ public class ShallowWaterSimulator : MonoBehaviour
     void CalculateFPS(float deltaTime) 
     {
     frameCount++;
-    elapsedTime += deltaTime; // deltaTime is seconds passed since last frame
+    elapsedTime += deltaTime; 
 
     if (elapsedTime >= 1.0f) {
         fps = frameCount / elapsedTime;
         frameCount = 0;
         elapsedTime = 0;
-        // Output fps variable
+        // Output fps 
         Debug.Log("fps:" + fps);
     }
     }
 
     void Start()
     {
-        // 1. Init simulation arrays FIRST
+        
         h = new float[gridSize * gridSize];
         H = new float[gridSize * gridSize];
         u = new float[(gridSize + 1) * gridSize];
@@ -66,7 +66,6 @@ public class ShallowWaterSimulator : MonoBehaviour
 
         for (int i = 0; i < h.Length; i++) h[i] = restDepth;
 
-        // 2. Build mesh AFTER arrays exist
         GenerateMesh();
     }
 
@@ -91,7 +90,7 @@ void Update()
     
     CalculateFPS(dt);
 
-    // DEBUG: print min and max height every second to confirm simulation is running
+    // debug
     debugTimer += Time.deltaTime;
     if (debugTimer > 1f)
     {
@@ -111,7 +110,7 @@ private float debugTimer = 0f;
 
     void StepSWE(float dt)
     {
-        // --- Step 1: Velocity update (uses current h) ---
+        // update velocities
         for (int j = 0; j < gridSize; j++)
         {
             for (int i = 1; i < gridSize; i++)
@@ -132,7 +131,7 @@ private float debugTimer = 0f;
             }
         }
 
-        // --- Step 2: Reflective boundaries ---
+        // stop water at edges
         for (int j = 0; j < gridSize; j++)
         {
             u[U(0, j)]        = 0f;
@@ -144,12 +143,12 @@ private float debugTimer = 0f;
             w[W(i, gridSize)] = 0f;
         }
 
-        // --- Step 3: Velocity clamping ---
+        // limit velocity, avoid instability
         float maxSpeed = 0.5f * cellSize / dt;
         for (int k = 0; k < u.Length; k++) u[k] = Mathf.Clamp(u[k], -maxSpeed, maxSpeed);
         for (int k = 0; k < w.Length; k++) w[k] = Mathf.Clamp(w[k], -maxSpeed, maxSpeed);
 
-        // --- Step 4: Height update ---
+        // update water height
         float[] hNew = new float[h.Length];
         for (int j = 0; j < gridSize; j++)
         {
@@ -177,7 +176,7 @@ private float debugTimer = 0f;
     float phase = Time.time * waveFrequency * 2f * Mathf.PI;
     float sourceHeight = restDepth + waveAmplitude * Mathf.Sin(phase);
     
-    // Drive entire bottom edge uniformly for clean parallel waves
+    // create waves from bottom edge
     for (int i = 0; i < gridSize; i++)
         h[C(i, 0)] = sourceHeight;
 }
@@ -201,7 +200,7 @@ void ApplyObjectInteraction()
                 float dist = Vector2.Distance(new Vector2(i, j), new Vector2(gridX, gridZ)) * cellSize;
                 if (dist < objectRadius)
                 {
-                    float waterSurface = h[C(i, j)];   // current height at this cell
+                    float waterSurface = h[C(i, j)];   // current height 
                     float immersion = waterSurface - (ballObject.position.y - transform.position.y);
                     
                     float force = Mathf.Clamp(immersion, -1f, 1f) * (1f - dist / objectRadius);
@@ -224,7 +223,7 @@ void ApplyContinuousWave()
                      Mathf.Sin(phase + spatialOffset);
     }
     
-    // Left edge — different frequency for interference
+    // waves from left side
     for (int j = 0; j < gridSize; j++)
     {
         float spatialOffset = j * 0.1f;

@@ -43,9 +43,6 @@ height and updating the object position. Both
 models remain well above real-time requirements 
 throughout.
 
-See the [full report](Report/report.pdf) for 
-more details.
-
 ## Screenshots
 ### Gerstner Waves
 ![Water Simulation](Video/Gernst.gif)

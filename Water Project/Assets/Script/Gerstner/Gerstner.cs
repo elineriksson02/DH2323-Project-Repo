@@ -35,7 +35,7 @@ public class Gerstner : MonoBehaviour
         vertices = new Vector3[initialVertices.Length]; 
     }
  
-    // Update is called once per frame
+   
     void Update()
     {
         GerstnerWave();
@@ -122,7 +122,7 @@ public class Gerstner : MonoBehaviour
 
     if (waves == null || waves.Length == 0) return 0f;
 
-    // 1. Gerstner waves
+   // base waves
     foreach (Wave w in waves)
     {
         float k = 2 * Mathf.PI / Mathf.Max(w.wavelength, 0.1f);
@@ -131,7 +131,7 @@ public class Gerstner : MonoBehaviour
         height += w.amplitude * Mathf.Sin(phase);
     }
 
-    // 2. Ripples (ADD AFTER waves)
+    // add ripple effects
     float rippleHeight = 0f;
     for (int i = ripples.Count - 1; i >= 0; i--)
     {
